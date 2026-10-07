@@ -27,7 +27,7 @@ An event experience and operations lead managing a multi-session technology conf
 
 **What the app does:**
 
-A Streamlit dashboard presents simulated event-time signals, highlights attention-worthy bubbles, and reveals linked evidence, a synthetic attendee journey, and deterministic recommendations after a user selects a signal.
+A Streamlit dashboard presents simulated event-time signals, highlights attention-worthy bubbles, and reveals linked evidence and deterministic recommendations after a user selects a signal.
 
 **What the app does not do:**
 
@@ -35,17 +35,15 @@ It uses only synthetic data and local CSVs. It does not ingest live data, track 
 
 ## Dataset and methodology
 
-**Data sources:** Simulated conference operations signals and synthetic attendee journey events.
+**Data source:** Simulated conference operations signals.
 
 **Data grain:** One 15-minute snapshot for one session location or shared service zone.
 
-**Scale:** One day, 9:00 a.m. to 6:00 p.m.; 288 operational-signal records plus approximately 2,400 to 3,600 journey events for 600 fictional attendees.
+**Scale:** One day, 9:00 a.m. to 6:00 p.m.; 288 operational-signal records.
 
 **Columns and definitions:**
 
 **Operational-signal CSV:** `timestamp`, `entity_type`, `entity_name`, `session_title`, `session_track`, `capacity`, `attendance`, `check_ins`, `avg_queue_minutes`, `attendee_pulse_score`, `pulse_response_count`, `app_error_rate_pct`, `support_case_count`, and `people_affected`.
-
-**Attendee-journey CSV:** `attendee_id`, `timestamp`, `journey_stage`, `entity_name`, `session_title`, and `outcome`. All IDs are synthetic; ordered journey events support the Sankey view.
 
 **Designed story moments:**
 
@@ -77,7 +75,7 @@ Capture the conversation where the single-day conference scope, 2:30 p.m. openin
 
 **What changed:**
 
-Defined Signal Room as a synthetic, deterministic Streamlit data app—not an API, LLM, LangChain, or autonomous-agent project. Accepted one dashboard with two tabs and no routing.
+Defined Signal Room as a synthetic, deterministic Streamlit data app—not an API, LLM, LangChain, or autonomous-agent project. Kept one focused dashboard with no routing.
 
 **How I verified it:**
 
@@ -115,7 +113,7 @@ Capture the request to proceed to Task 2 and the generator/test implementation c
 
 **What changed:**
 
-Generated 288 conference-signal records and 2,720 ordered journey events for 600 fictional attendees. Embedded the morning arrival surge, post-lunch Catalyst friction, and late-afternoon improvement story moments.
+Generated 288 conference-signal records. Embedded the morning arrival surge, post-lunch Catalyst friction, and late-afternoon improvement story moments.
 
 **How I verified it:**
 
@@ -215,6 +213,7 @@ Capture the revised dashboard at desktop width and confirm the bubble chart and 
 | Define attendee pulse score before the next dashboard slice | The dashboard shows a 1–5 pulse score, but the current documentation does not yet state what a score represents or how the synthetic aggregate is calculated. | Pending product/data iteration: document the simulated response scale and aggregation method, then add it to the data dictionary and dashboard help text. | A metric must be interpretable before it is used as a visual axis or decision signal. |
 | Shift the dashboard to a midnight operations theme | The initial UX contract specified a light startup palette, but the desired product character is a dark, modern analytics experience. | Use midnight navy surfaces, bright neutral text, cobalt interaction, and the same coral/amber/mint status hierarchy; avoid pure black and retain text labels with every status color. | Theme changes need a complete token system—page, surfaces, borders, text, charts, and interaction—not only new bubble colors. |
 | Make the investigation flow scannable before detailed | The first investigation layout stacked the location trend under the bubble chart and gave the selected-signal detail too much visual weight. It also used “entity” language unfamiliar to an event operator. | Place the bubble chart and location-performance chart side by side, keep the selected-location summary compact, and reveal detailed evidence below. Replace technical implementation terms in dashboard copy. | Dashboard hierarchy and language are product decisions: the user must understand the comparison before reading evidence, and labels should reflect their real-world vocabulary. |
+| Keep the Week 1 scope focused | A Journey and Operations tab, attendee-level journey CSV, Sankey diagram, and radial health profile would add complexity without supporting a required handout deliverable. | Removed the extra dataset and view. Kept one deterministic operations dashboard with a clear investigation flow. | Extra visualizations are valuable only when they answer a necessary user question or strengthen the required demonstration. |
 |  |  |  |  |
 |  |  |  |  |
 
@@ -232,7 +231,6 @@ Capture the revised dashboard at desktop width and confirm the bubble chart and 
 - [ ] Selected high-demand session bubble
 - [ ] Linked trend and evidence panel
 - [ ] Next-best-action recommendation
-- [ ] Journey and Operations view
 - [ ] Vibe-coding process screenshots from the build log
 
 ## Video demo outline
@@ -241,5 +239,4 @@ Capture the revised dashboard at desktop width and confirm the bubble chart and 
 - [ ] Show the Live Event 360 dashboard and filters.
 - [ ] Select the high-demand-session bubble.
 - [ ] Explain the linked evidence and deterministic next-best action.
-- [ ] Show the Journey and Operations tab.
 - [ ] Explain how Codex supported the build and one lesson learned.

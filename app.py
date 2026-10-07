@@ -17,10 +17,12 @@ st.markdown("""
     [data-testid="stMetricValue"] { color: #F4F7FB; }
     [data-testid="stSelectbox"] > div, [data-testid="stMultiSelect"] > div { background: #1C2540; }
     .stButton > button { border-color: #6EA8FE; color: #F4F7FB; }
+    .app-hero { text-align: center; padding: 0.5rem 0 1rem; }
+    .app-hero h1 { margin: 0; color: #F4F7FB; }
+    .app-hero p { margin: 0.2rem 0 0; color: #AAB6CF; }
 </style>
 """, unsafe_allow_html=True)
-st.title("Signal Room")
-st.caption("Simulated event replay · local CSV data only")
+st.markdown("<div class='app-hero'><h1>Conference Operations Signal Room</h1><p>Monitor attendee experience and support pressure during a simulated event replay</p></div>", unsafe_allow_html=True)
 
 DATA_PATH = Path("data/conference_signals.csv")
 
@@ -71,19 +73,20 @@ if scope_changed:
     st.session_state.show_investigation = False
 st.session_state.filter_scope = filter_scope
 
-kpis = st.columns(5)
-for column, (label, value, help_text) in zip(kpis, [
+with st.container():
+ kpis = st.columns(5)
+ for column, (label, value, help_text) in zip(kpis, [
     ("Occupancy", f"{snapshot['occupancy_rate'].mean():.0f}%", None),
     ("Average queue", f"{snapshot['avg_queue_minutes'].mean():.1f} min", None),
     ("Attendee pulse", f"{snapshot['attendee_pulse_score'].mean():.1f} / 5", "Average 1–5 attendee pulse rating; higher is better."),
     ("App errors", f"{snapshot['app_error_rate_pct'].mean():.1f}%", None),
     ("Support cases", str(int(snapshot['support_case_count'].sum())), None),
-]):
+ ]):
     column.metric(label, value, help=help_text)
-st.caption("Pulse-score confidence is lower when fewer than five responses are available; treat it as directional feedback.")
+ st.caption("Pulse-score confidence is lower when fewer than five responses are available; treat it as directional feedback.")
 
-bubble_col, location_col = st.columns([1.35, 1])
-with bubble_col:
+ bubble_col, location_col = st.columns([1.35, 1])
+ with bubble_col:
     if snapshot[snapshot["plot_eligible"].astype(bool)].empty:
         st.info("No locations match these filters. Adjust the replay time, Show, or Locations filters.")
     else:
@@ -92,7 +95,7 @@ with bubble_col:
         st.session_state.selected_entity = resolve_selected_entity(
             st.session_state.selected_entity, points, scope_changed
         )
-with location_col:
+ with location_col:
     if st.session_state.selected_entity:
         selected = snapshot[snapshot["entity_name"].eq(st.session_state.selected_entity)]
         if selected.empty:
@@ -102,8 +105,7 @@ with location_col:
         else:
             row = selected.iloc[0]
             evidence = investigation_evidence(signals, row["entity_name"], selected_time)
-            st.caption("Location")
-            st.subheader(row["entity_name"])
+            st.subheader(f"Location: {row['entity_name']}")
             history = signals[signals["entity_name"].eq(st.session_state.selected_entity)]
             st.plotly_chart(build_trend_chart(history), use_container_width=True)
             st.markdown(f"**{row['status'].title()} · {row['entity_name']}**")
@@ -113,7 +115,7 @@ with location_col:
     else:
         st.info("Catalyst Theater is highlighted at 2:30 PM. Select a location bubble to inspect its performance and next step.")
 
-if st.session_state.selected_entity:
+ if st.session_state.selected_entity:
     if st.session_state.show_investigation:
         evidence = investigation_evidence(signals, st.session_state.selected_entity, selected_time)
         st.subheader(f"Investigation: {st.session_state.selected_entity} · {pd.Timestamp(selected_time).strftime('%-I:%M %p')}")

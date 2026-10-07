@@ -19,7 +19,3 @@ All data in Signal Room is synthetic and exists only for the local conference-re
 | `people_affected` | Simulated estimate used only for bubble size. |
 
 **Derived metric:** operations pressure is `support_case_count / attendance * 100`. It is `N/A` when attendance is zero.
-
-## `attendee_journeys.csv`
-
-**Grain:** one ordered synthetic event for one fictional attendee ID. `journey_stage` records arrival, session, community, support, or exit, so adjacent events can be aggregated into the Journey and Operations Sankey view.

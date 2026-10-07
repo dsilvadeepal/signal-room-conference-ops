@@ -16,7 +16,7 @@ The v1 demonstration is set at the fictional Horizon Tech Summit. It uses simula
 
 **V1 success:** In a five-minute demo, the user can select the known high-demand-session issue, see its linked evidence, understand why it triggered, and see a clearly bounded next-best action.
 
-**V1 non-goals:** Live data ingestion, attendee-level tracking, authentication, a database, an API, an LLM, LangChain, an autonomous agent, or executable operational workflows.
+**V1 non-goals:** Live data ingestion, attendee-level tracking, a second dashboard tab, Sankey or radial charts, authentication, a database, an API, an LLM, LangChain, an autonomous agent, or executable operational workflows.
 
 ## 3. Conference scenario and simulated data
 
@@ -27,8 +27,8 @@ The fictional Horizon Tech Summit runs for one day, 9:00 a.m. to 6:00 p.m. Each 
 | Time windows | 36: 9:00–9:15 a.m. through 5:45–6:00 p.m. |
 | Operating entities | Five session locations and three shared service zones |
 | Total records | 288 (`1 day × 36 intervals × 8 entities`) |
-| Data sources | Seeded synthetic generator that creates versioned operational-signal and attendee-journey CSVs |
-| Privacy posture | No real attendee, customer, employee, or event data; journey IDs are synthetic |
+| Data source | Seeded synthetic generator that creates one versioned operational-signal CSV |
+| Privacy posture | No real attendee, customer, employee, or event data |
 
 **Session locations:** Momentum Hall, Catalyst Theater, Circuit Lab, Studio Two, Workshop Loft.
 
@@ -53,19 +53,6 @@ The fictional Horizon Tech Summit runs for one day, 9:00 a.m. to 6:00 p.m. Each 
 | `support_case_count` | Number of support requests in the interval |
 | `people_affected` | Estimated people affected by the observed signal |
 
-### Attendee journey records
-
-The Sankey visual uses a second synthetic event-log CSV rather than inferring individual movement from aggregated operational data. It represents 600 fictional attendees with synthetic IDs and ordered journey events. Each attendee has an arrival event, an exit event, and two to four intermediate events, resulting in approximately 2,400 to 3,600 journey records.
-
-| Column | Meaning |
-| --- | --- |
-| `attendee_id` | Synthetic, non-identifying attendee ID |
-| `timestamp` | Event-time of the journey touchpoint |
-| `journey_stage` | `arrival`, `session`, `community`, `support`, or `exit` |
-| `entity_name` | Venue zone or session location associated with the touchpoint |
-| `session_title` | Agenda item when the touchpoint is a session |
-| `outcome` | Simulated completion, support-needed, or rerouted outcome |
-
 ### Designed story moments
 
 1. **Day 1 arrival surge:** Arrival Hub shows longer queues and increased service demand from 9:00 to 9:45 a.m.
@@ -80,9 +67,9 @@ All other periods should vary plausibly but remain within normal operating range
 
 Signal Room uses a calm **midnight operations** theme, not pure black or a high-noise command-center aesthetic. The page background is midnight navy `#0B1020`; cards and charts sit on raised navy surfaces `#141B2D` and `#1C2540`; borders use `#283554`; primary and secondary text use `#F4F7FB` and `#AAB6CF`. Cobalt `#6EA8FE` identifies selected or interactive controls, coral `#FF6B7A` identifies attention, amber `#F6C85F` identifies monitor, and mint `#5DDBB4` identifies healthy or improved conditions. Status words and icons remain visible alongside color, and Plotly charts must use the same dark surfaces, light axes, and muted gridlines.
 
-### Live Event 360 tab
+### Live Event 360 dashboard
 
-The default tab answers: **Where should I look now?**
+The dashboard answers: **Where should I look now?**
 
 - The opening state is 2:30 p.m. with no bubble selected. Catalyst Theater is visually prominent as the largest attention-colored bubble and has a visible priority label; this invites the user to investigate it without preselecting it. The 2:30 p.m. snapshot is the third consecutive 15-minute interval of the post-lunch-session signal, making its attention status and recommendation evidence-backed.
 - A 15-minute event-time replay slider from 9:00 a.m. through 5:45 p.m. controls the displayed snapshot; the final snapshot represents the 5:45–6:00 p.m. window. In a real deployment, it would expose only completed time windows; in this simulated demo, it also allows replay of the full day. A plain-language `View` control optionally groups locations as Sessions or Shared services, while the primary `Locations` filter lets the user select recognizable names such as Catalyst Theater, Arrival Hub, or Support Bar.
@@ -100,14 +87,6 @@ The default tab answers: **Where should I look now?**
   - a comparison of pulse score, app error rate, and support cases against the selected entity's day baseline;
   - the three consecutive intervals or current interval that triggered the rule; and
   - the deterministic recommendation, confidence, and limitation.
-
-### Journey and Operations tab
-
-The second tab answers: **How are the event journey and operational health connected?**
-
-- A Sankey-style summary of actual ordered flows in the synthetic attendee journey records: arrival, session attendance, community engagement, support interaction, and exit.
-- A radial health profile for the selected entity across occupancy, queue time, attendee pulse, app reliability, and service load.
-- A selected-entity summary consistent with the first tab's filters and status.
 
 ## 5. Deterministic findings and next-best actions
 
@@ -131,9 +110,9 @@ Every recommendation must display the suggested owner, suggested timing, and the
 | Layer | Product | Responsibility |
 | --- | --- | --- |
 | Development partner | Codex | Assist with code generation, explanation, debugging, and iteration; not part of the deployed app |
-| Runtime | Python and Streamlit | Application layout, filters, state, tabs, and local execution |
+| Runtime | Python and Streamlit | Application layout, filters, state, and local execution |
 | Data and rules | pandas | CSV loading, validation, derived metrics, status classification, and next-best actions |
-| Visual layer | Plotly | Bubble chart, linked trend, Sankey summary, and radial health profile |
+| Visual layer | Plotly | Bubble chart and linked trend |
 | Testing | pytest | Known-answer tests for data generation, metrics, classifications, and recommendations |
 | Version control | Git and GitHub | Private repository, reviewable branches, and submission code link |
 | Optional hosting | Replit | Import and run the GitHub project after the stable local build is verified |
@@ -147,13 +126,13 @@ The implementation must use only local files. No credentials or secrets are need
 - Validate required CSV columns before calculating metrics. Show a readable error if the file is missing or invalid.
 - Show a clear empty state when filters return no records.
 - Prevent divide-by-zero errors for capacity and response-count calculations.
-- Keep filters, KPI cards, bubble selection, trend, radial profile, Sankey summary, and evidence panel consistent with the same selected scope.
+- Keep filters, KPI cards, bubble selection, trend, and evidence panel consistent with the same selected scope.
 - Use status labels and text in addition to color.
 - Never expose a real external action button; recommendations are informational only.
 
 ## 8. Demo and submission evidence
 
-The intended video story is the 2:30 p.m. Catalyst Theater post-lunch issue: select its bubble, inspect the trend and evidence, explain the deterministic recommendation, then show Journey and Operations.
+The intended video story is the 2:30 p.m. Catalyst Theater post-lunch issue: select its bubble, inspect the trend and evidence, and explain the deterministic recommendation.
 
 The project documentation must include the problem statement, simulated-data description, relevant Codex prompts, meaningful iterations or bugs, screenshots of the build process and final app, and lessons learned.
 

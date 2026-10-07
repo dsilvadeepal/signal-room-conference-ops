@@ -64,40 +64,9 @@ def generate_conference_signals(seed: int) -> pd.DataFrame:
     )
 
 
-def generate_attendee_journeys(seed: int) -> pd.DataFrame:
-    """Return ordered, non-identifying attendee journeys for the Sankey view."""
-    rng = random.Random(seed)
-    rows: list[dict[str, object]] = []
-    session_names = [entity[1] for entity in ENTITIES if entity[0] == "session"]
-    for attendee in range(1, 601):
-        identifier = f"ATT-{attendee:03d}"
-        start = pd.Timestamp("2026-10-07 09:00") + pd.Timedelta(minutes=rng.randrange(0, 300, 15))
-        choices = ["Catalyst Theater", "Catalyst Theater", "Circuit Lab", "Momentum Hall", "Studio Two", "Workshop Loft"]
-        session = rng.choice(choices if attendee <= 260 else session_names)
-        stages = [("arrival", "Arrival Hub"), ("session", session)]
-        if attendee % 5 == 0:
-            stages.append(("support", "Support Bar"))
-        stages.append(("community", "Community Commons"))
-        if attendee % 3 == 0:
-            stages.append(("session", rng.choice(session_names)))
-        stages.append(("exit", "Exit"))
-        for position, (stage, entity) in enumerate(stages):
-            rows.append({
-                "attendee_id": identifier,
-                "timestamp": start + pd.Timedelta(minutes=30 * position),
-                "journey_stage": stage,
-                "entity_name": entity,
-                "session_title": entity if stage == "session" else "",
-                "outcome": "completed" if stage == "exit" else "observed",
-            })
-    return pd.DataFrame(rows).sort_values(["attendee_id", "timestamp"], ignore_index=True)
-
-
-def write_demo_data(output_dir: Path, seed: int = 42) -> tuple[Path, Path]:
-    """Write the deterministic demo CSVs and return their paths."""
+def write_demo_data(output_dir: Path, seed: int = 42) -> Path:
+    """Write the deterministic operating-signal CSV and return its path."""
     output_dir.mkdir(parents=True, exist_ok=True)
     signals_path = output_dir / "conference_signals.csv"
-    journeys_path = output_dir / "attendee_journeys.csv"
     generate_conference_signals(seed).to_csv(signals_path, index=False)
-    generate_attendee_journeys(seed).to_csv(journeys_path, index=False)
-    return signals_path, journeys_path
+    return signals_path

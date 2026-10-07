@@ -4,7 +4,7 @@
 
 **Goal:** Build a local, deterministic Streamlit conference-operations dashboard that turns simulated event signals into evidence-backed next-best actions.
 
-**Architecture:** A seeded Python generator creates two versioned CSVs: 288 aggregated operating-signal snapshots and synthetic attendee journey events for 600 fictional attendees. pandas validates and derives metrics, statuses, and recommendations; Streamlit renders the two tabs; Plotly renders linked interactive visuals. Pure data and rule functions are tested with pytest before the UI consumes them.
+**Architecture:** A seeded Python generator creates one versioned CSV with 288 aggregated operating-signal snapshots. pandas validates and derives metrics, statuses, and recommendations; Streamlit renders one dashboard; Plotly renders linked interactive visuals. Pure data and rule functions are tested with pytest before the UI consumes them.
 
 **Tech Stack:** Python 3.11, Streamlit, pandas, Plotly, pytest, GitHub, optional Replit deployment.
 
@@ -12,9 +12,8 @@
 
 ## Global Constraints
 
-- Use only synthetic local CSVs; do not add credentials, APIs, databases, LLMs, LangChain, agents, D3, or executable workflows.
+- Use only synthetic local CSVs; do not add credentials, APIs, databases, LLMs, LangChain, agents, D3, attendee-level records, a second dashboard tab, Sankey/radial charts, routing, or executable workflows.
 - `data/conference_signals.csv` contains exactly 288 rows: 36 windows from 9:00–9:15 a.m. through 5:45–6:00 p.m. for eight entities.
-- `data/attendee_journeys.csv` contains 600 synthetic attendee IDs with an arrival, an exit, and two to four intermediate journey events each.
 - Open Live Event 360 at 2:30 p.m. with no selected bubble; make Catalyst Theater visually prominent but do not preselect it.
 - Calculate operations pressure as `support_case_count / attendance * 100`; zero attendance is `N/A` and excludes the entity from the bubble chart.
 - Define attendee pulse as the simulated average of 1–5 micro-survey ratings in a 15-minute entity interval; display “Average 1–5 attendee pulse rating; higher is better.” and state that lower response counts mean lower confidence.
@@ -27,7 +26,6 @@
 - Zero attendance never creates an infinite rate or a plotted bubble. Covered in Task 3.
 - Attention requires three correctly ordered consecutive intervals, not three arbitrary matching rows. Covered in Task 3.
 - A filter scope with no records clears the recommendation and shows an empty state. Covered in Task 4 manual verification.
-- Sankey flow totals are derived from ordered synthetic journeys, not inferred from the aggregate signal CSV. Covered in Task 6.
 
 ---
 
@@ -42,7 +40,7 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ Signal Room by Signal Foundry       Simulated event replay · 2:30 p.m.    │
-│ Horizon Tech Summit                  [ Live Event 360 ] [ Journey & Ops ] │
+│ Horizon Tech Summit                  Simulated event replay               │
 ├────────────────────────────────────────────────────────────────────────────┤
 │ Event time: 9:00 ───────────────●────────────── 5:45                      │
 │ [All locations ▼]  [View: All locations / Sessions / Shared services ▼]  │
@@ -89,31 +87,14 @@
 - The evidence section shows raw metrics and triggering intervals before recommendation prose.
 - Recommendations say “suggested next step,” never “automatic action,” “root cause,” or “this action will fix the issue.”
 
-### Journey and Operations tab
+### Navigation and state
 
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│ Journey and Operations        Same time/filter context and replay label    │
-├───────────────────────────────────────────────┬────────────────────────────┤
-│ Aggregated synthetic attendee flows            │ Selected entity health     │
-│ Arrival → Session → Community → Exit           │ radial: occupancy, queue,  │
-│                   ↘ Support → Exit             │ pulse, app, service load   │
-└───────────────────────────────────────────────┴────────────────────────────┘
-```
-
-- The Sankey is labeled as a synthetic attendee-journey view.
-- Without a selected entity, the radial area explains that the user should select a bubble on Live Event 360.
-- The Sankey and radial profile retain the active event-time/filter context; they do not silently use a different scope.
-
-### Navigation and shared state
-
-- Use one Streamlit application with `st.tabs(["Live Event 360", "Journey and Operations"])`; do not use multipage routing, URL routing, or `st.switch_page` in v1.
-- Place the event-time replay slider, a plain-language `View` grouping control, and the primary `Locations` filter above the tabs so they apply to both views. `Locations` lists recognizable session venues and shared-service zones; do not expose the implementation term “entity type” to end users.
+- Use one Streamlit dashboard; do not add routing or a second tab in v1.
+- Place the event-time replay slider, a plain-language `View` grouping control, and the primary `Locations` filter above the analysis area. `Locations` lists recognizable session venues and shared-service zones; do not expose the implementation term “entity type” to end users.
 - Store `selected_entity`, `selected_timestamp`, and `show_investigation` in Streamlit session state.
-- A manual tab switch preserves a valid selected entity: Live Event 360 explains its recommendation; Journey and Operations uses it for the radial profile.
-- A change to time, View, or Locations clears the selection and investigation state before either tab rerenders. This prevents the second tab from showing a stale profile for a different snapshot.
+- A change to time, View, or Locations clears the selection and investigation state before the dashboard rerenders. This prevents stale detail for a different snapshot.
 - An empty chart selection clears the selected entity. Provide a visible `Clear selection` control as a dependable alternative to unselecting within the chart.
-- Selecting a bubble does not automatically navigate away from Live Event 360. The user chooses the Journey and Operations tab when they want the broader journey view.
+- Selecting a bubble does not navigate away from the dashboard.
 
 ### Responsive and accessibility requirements
 
@@ -127,16 +108,15 @@
 
 | Path | Responsibility |
 | --- | --- |
-| `app.py` | Streamlit entry point, session state, filters, tab layout, and in-page interaction orchestration. |
-| `src/signal_room/data_generation.py` | Seeded generation and writing of both synthetic CSVs. |
+| `app.py` | Streamlit entry point, session state, filters, and in-page interaction orchestration. |
+| `src/signal_room/data_generation.py` | Seeded generation and writing of the synthetic signal CSV. |
 | `src/signal_room/analytics.py` | Schema validation, derived metrics, status/rule evaluation, and investigation evidence. |
-| `src/signal_room/journeys.py` | Ordered journey validation, Sankey flow aggregation, and radial-profile inputs. |
-| `src/signal_room/visuals.py` | Plotly bubble, trend, Sankey, and radial figure construction. |
-| `scripts/generate_data.py` | Command-line entry point that writes the two data files. |
-| `tests/` | Known-answer tests for generator, analytics, and journey behavior. |
+| `src/signal_room/visuals.py` | Plotly bubble and trend figure construction. |
+| `scripts/generate_data.py` | Command-line entry point that writes the signal CSV. |
+| `tests/` | Known-answer tests for generator, analytics, state, and visual behavior. |
 | `data/` | Versioned generated CSVs used by the local app and demo. |
 | `README.md` | Setup, architecture, simulated-data disclosure, demo path, and optional Replit handoff. |
-| `docs/data-dictionary.md` | Plain-language definitions, formulas, and confidence caveats for the two simulated CSVs. |
+| `docs/data-dictionary.md` | Plain-language definitions, formulas, and confidence caveats for the simulated CSV. |
 
 ### Task 1: Bootstrap the runnable project
 
@@ -179,16 +159,16 @@ git commit -m "Build Signal Room project scaffold"
 ### Task 2: Generate and validate synthetic data
 
 **Files:**
-- Create: `src/signal_room/data_generation.py`, `scripts/generate_data.py`, `tests/test_data_generation.py`, `data/conference_signals.csv`, `data/attendee_journeys.csv`
+- Create: `src/signal_room/data_generation.py`, `scripts/generate_data.py`, `tests/test_data_generation.py`, `data/conference_signals.csv`
 - Modify: `README.md`
 
 **Interfaces:**
-- Produces: `generate_conference_signals(seed: int) -> pandas.DataFrame`, `generate_attendee_journeys(seed: int) -> pandas.DataFrame`, and `write_demo_data(output_dir: pathlib.Path, seed: int) -> tuple[pathlib.Path, pathlib.Path]`.
+- Produces: `generate_conference_signals(seed: int) -> pandas.DataFrame` and `write_demo_data(output_dir: pathlib.Path, seed: int) -> pathlib.Path`.
 - Consumes: fixed conference schedule and entity constants defined in `data_generation.py`.
 
 - [x] **Step 1: Write the failing generator and schema tests**
 
-Test that the signal generator produces exactly 288 rows, 36 unique timestamps, eight entities per timestamp, and the required columns. Test that the journey generator produces exactly 600 distinct IDs, each with `arrival` first, `exit` last, and four through six total events.
+Test that the signal generator produces exactly 288 rows, 36 unique timestamps, eight entities per timestamp, the required columns, and the same output for a fixed seed.
 
 - [x] **Step 2: Run the tests to verify they fail**
 
@@ -196,9 +176,9 @@ Run: `python -m pytest tests/test_data_generation.py -v`
 
 Expected: FAIL because the generator functions do not exist.
 
-- [x] **Step 3: Implement seeded signal and journey generation**
+- [x] **Step 3: Implement seeded signal generation**
 
-Use one fixed integer seed. Generate normal variation plus the 9:00–9:45 arrival surge, 2:00–3:15 Catalyst Theater friction, and late-afternoon observed improvement. Ensure the Catalyst snapshot at 2:30 has three consecutive qualifying capacity/queue windows and qualifying app-error/support values. Generate journey records whose ordered flows reflect increased Catalyst attendance and support events during the 2:00–3:15 interval.
+Use one fixed integer seed. Generate normal variation plus the 9:00–9:45 arrival surge, 2:00–3:15 Catalyst Theater friction, and late-afternoon observed improvement. Ensure the Catalyst snapshot at 2:30 has three consecutive qualifying capacity/queue windows and qualifying app-error/support values.
 
 - [x] **Step 4: Write the CSVs and verify deterministic output**
 
@@ -211,7 +191,7 @@ Expected: both CSVs are written under `data/`; all tests pass; rerunning with th
 Add the two-file data explanation and simulated-data disclosure to `README.md`.
 
 ```bash
-git add -- src/signal_room/data_generation.py scripts/generate_data.py tests/test_data_generation.py data/conference_signals.csv data/attendee_journeys.csv README.md
+git add -- src/signal_room/data_generation.py scripts/generate_data.py tests/test_data_generation.py data/conference_signals.csv README.md
 git commit -m "Generate deterministic conference data"
 ```
 
@@ -278,7 +258,7 @@ Run: `python -m pytest tests/test_smoke.py -v`
 
 Expected: FAIL because the figure builders do not exist.
 
-- [x] **Step 3: Implement the Live Event 360 tab from the UX contract**
+- [x] **Step 3: Implement the Live Event 360 dashboard from the UX contract**
 
 Use a 9:00 a.m.–5:45 p.m. 15-minute slider with default `2:30 p.m.`. Default to no selected entity. Build KPI cards with units, the bubble chart with pulse score on x, operations pressure on y, people affected as size, and explicit healthy/monitor/attention labels. Use `st.plotly_chart(..., on_select="rerun", selection_mode="points")`; read `entity_name` from custom data and persist it in Streamlit session state. Show a readable empty state when filters return no eligible bubbles.
 
@@ -331,44 +311,7 @@ git add -- app.py src/signal_room/analytics.py tests/test_analytics.py
 git commit -m "Add recommendation investigation flow"
 ```
 
-### Task 6: Build Journey and Operations
-
-**Files:**
-- Create: `src/signal_room/journeys.py`, `tests/test_journeys.py`
-- Modify: `src/signal_room/visuals.py`, `app.py`
-
-**Interfaces:**
-- Produces: `validate_journey_data(journeys: pandas.DataFrame) -> None`, `build_journey_flows(journeys: pandas.DataFrame) -> pandas.DataFrame`, `build_sankey_chart(flows: pandas.DataFrame) -> plotly.graph_objects.Figure`, and `build_radial_chart(selected_snapshot: pandas.Series) -> plotly.graph_objects.Figure`.
-- Consumes: ordered journey records from Task 2 and selected entity signal data from Task 4.
-
-- [ ] **Step 1: Write failing journey tests**
-
-Test that every journey begins with arrival and ends with exit, each Sankey flow comes from adjacent ordered events for the same attendee, and total flow counts equal the number of adjacent event pairs. Test that the radial chart uses occupancy, queue, pulse, app reliability, and service load values from the selected snapshot.
-
-- [ ] **Step 2: Run the tests to verify they fail**
-
-Run: `python -m pytest tests/test_journeys.py -v`
-
-Expected: FAIL because journey functions do not exist.
-
-- [ ] **Step 3: Implement the second dashboard tab from the Journey and Operations wireframe**
-
-Create the Journey and Operations tab. Render the Sankey from journey-event transitions, not operational estimates. Render the radial profile only after an entity selection; otherwise show a clear prompt to select a bubble on Live Event 360. Keep the same simulated-data label and selected-entity context across both tabs.
-
-- [ ] **Step 4: Verify the journey view**
-
-Run: `python -m pytest tests/test_journeys.py -v` and `streamlit run app.py`.
-
-Expected: Sankey totals reconcile to the journey event log; selecting Catalyst Theater gives a consistent radial profile; no selection yields an explanatory empty state.
-
-- [ ] **Step 5: Commit the second tab**
-
-```bash
-git add -- app.py src/signal_room/journeys.py src/signal_room/visuals.py tests/test_journeys.py
-git commit -m "Add journey and operations view"
-```
-
-### Task 7: Polish, document, and prepare the submission
+### Task 6: Polish, document, and prepare the submission
 
 **Files:**
 - Create: `.streamlit/config.toml`, `docs/data-dictionary.md`
@@ -400,13 +343,13 @@ Expected: all tests pass, no whitespace errors exist, the app opens locally, all
 - [ ] **Step 5: Commit the release-ready project**
 
 ```bash
-git add -- .streamlit/config.toml docs/data-dictionary.md README.md app.py docs/submission/week1-project-documentation-notes.md tests/test_smoke.py tests/test_data_generation.py tests/test_analytics.py tests/test_journeys.py
+git add -- .streamlit/config.toml docs/data-dictionary.md README.md app.py docs/submission/week1-project-documentation-notes.md tests/test_smoke.py tests/test_data_generation.py tests/test_analytics.py
 git commit -m "Polish Signal Room for Week 1 submission"
 ```
 
 ## Plan self-review
 
-- **Spec coverage:** Tasks 2–3 cover simulated data, deterministic calculations, rules, and safety; Tasks 4–6 cover both dashboard tabs and interactions; Task 7 covers visual quality, documentation, and submission evidence.
-- **Review-focus coverage:** Task 2 owns schema failure behavior; Task 3 owns rate and consecutive-window rules; Task 4 owns empty filtered states; Task 6 owns journey-flow integrity; Task 7 owns non-causal wording.
-- **Type consistency:** Tasks 3–6 use `pandas.DataFrame` for tabular data, `pandas.Series` for one selected snapshot, and `plotly.graph_objects.Figure` for every visualization.
+- **Spec coverage:** Tasks 2–3 cover simulated data, deterministic calculations, rules, and safety; Tasks 4–5 cover dashboard interactions; Task 6 covers visual quality, documentation, and submission evidence.
+- **Review-focus coverage:** Task 2 owns schema failure behavior; Task 3 owns rate and consecutive-window rules; Task 4 owns empty filtered states; Task 6 owns non-causal wording.
+- **Type consistency:** Tasks 3–5 use `pandas.DataFrame` for tabular data, `pandas.Series` for one selected snapshot, and `plotly.graph_objects.Figure` for every visualization.
 - **Scope control:** No deployment, real-time ingestion, action execution, or AI-model feature is required before the local app and tests pass.

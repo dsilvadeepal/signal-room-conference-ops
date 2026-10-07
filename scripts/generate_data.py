@@ -8,5 +8,5 @@ from signal_room.data_generation import write_demo_data
 
 
 if __name__ == "__main__":
-    paths = write_demo_data(Path("data"))
-    print("Wrote " + " and ".join(str(path) for path in paths))
+    path = write_demo_data(Path("data"))
+    print(f"Wrote {path}")
