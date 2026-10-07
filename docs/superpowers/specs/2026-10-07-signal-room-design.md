@@ -1,6 +1,6 @@
 # Signal Room Product Design
 
-**Status:** Draft for product and engineering review
+**Status:** Approved for implementation
 
 ## 1. Product summary
 

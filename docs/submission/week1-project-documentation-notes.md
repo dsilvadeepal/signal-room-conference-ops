@@ -19,19 +19,19 @@ Use this working file while building Signal Room. Write rough notes as they happ
 
 **One-sentence problem statement:**
 
-<!-- Write the user problem in your own words. -->
+Signal Room helps an event experience and operations lead identify attendee friction, connect it to service pressure, inspect the evidence, and review a bounded next-best action.
 
 **Who the app helps:**
 
-<!-- Describe the event experience and operations lead. -->
+An event experience and operations lead managing a multi-session technology conference.
 
 **What the app does:**
 
-<!-- Describe the dashboard, evidence, and deterministic next-best action. -->
+A Streamlit dashboard presents simulated event-time signals, highlights attention-worthy bubbles, and reveals linked evidence, a synthetic attendee journey, and deterministic recommendations after a user selects a signal.
 
 **What the app does not do:**
 
-<!-- Record scope boundaries: simulated data, no live integrations, no autonomous actions. -->
+It uses only synthetic data and local CSVs. It does not ingest live data, track real attendees, use an API, LLM, or agent, execute an action, or claim causal effects.
 
 ## Dataset and methodology
 
@@ -43,7 +43,9 @@ Use this working file while building Signal Room. Write rough notes as they happ
 
 **Columns and definitions:**
 
-<!-- Add the final CSV fields and plain-language definitions. -->
+**Operational-signal CSV:** `timestamp`, `entity_type`, `entity_name`, `session_title`, `session_track`, `capacity`, `attendance`, `check_ins`, `avg_queue_minutes`, `attendee_pulse_score`, `pulse_response_count`, `app_error_rate_pct`, `support_case_count`, and `people_affected`.
+
+**Attendee-journey CSV:** `attendee_id`, `timestamp`, `journey_stage`, `entity_name`, `session_title`, and `outcome`. All IDs are synthetic; ordered journey events support the Sankey view.
 
 **Designed story moments:**
 
@@ -53,7 +55,11 @@ Use this working file while building Signal Room. Write rough notes as they happ
 
 **Metric and recommendation rules:**
 
-<!-- Record formulas, thresholds, and the evidence shown for each recommendation. -->
+- Operations pressure: `support_case_count / attendance * 100`; zero attendance appears as `N/A` and is omitted from the bubble chart.
+- Attention rule 1: occupancy of at least 90% and queue time of at least 12 minutes for three consecutive intervals.
+- Attention rule 2: app error rate of at least 5% and at least four support cases in one interval.
+- Recommendation cards show evidence, owner (Event Operations Lead), timing (within 15 minutes), confidence, limitation, and “Verify and dispatch; not automated.”
+- Late-afternoon improvement is observational; it is not attributed to an intervention.
 
 ## Vibe-coding build log
 
