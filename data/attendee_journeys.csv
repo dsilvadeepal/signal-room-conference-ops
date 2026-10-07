@@ -1,0 +1,2721 @@
+attendee_id,timestamp,journey_stage,entity_name,session_title,outcome
+ATT-001,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-001,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-001,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-001,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-002,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-002,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-002,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-002,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-003,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-003,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-003,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-003,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-003,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-004,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-004,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-004,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-004,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-005,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-005,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-005,2026-10-07 14:30:00,support,Support Bar,,observed
+ATT-005,2026-10-07 15:00:00,community,Community Commons,,observed
+ATT-005,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-006,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-006,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-006,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-006,2026-10-07 10:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-006,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-007,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-007,2026-10-07 11:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-007,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-007,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-008,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-008,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-008,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-008,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-009,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-009,2026-10-07 09:30:00,session,Studio Two,Studio Two,observed
+ATT-009,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-009,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-009,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-010,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-010,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-010,2026-10-07 14:15:00,support,Support Bar,,observed
+ATT-010,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-010,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-011,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-011,2026-10-07 11:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-011,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-011,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-012,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-012,2026-10-07 14:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-012,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-012,2026-10-07 15:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-012,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-013,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-013,2026-10-07 10:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-013,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-013,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-014,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-014,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-014,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-014,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-015,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-015,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-015,2026-10-07 12:00:00,support,Support Bar,,observed
+ATT-015,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-015,2026-10-07 13:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-015,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-016,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-016,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-016,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-016,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-017,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-017,2026-10-07 10:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-017,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-017,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-018,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-018,2026-10-07 10:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-018,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-018,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-018,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-019,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-019,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-019,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-019,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-020,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-020,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-020,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-020,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-020,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-021,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-021,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-021,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-021,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-021,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-022,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-022,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-022,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-022,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-023,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-023,2026-10-07 13:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-023,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-023,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-024,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-024,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-024,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-024,2026-10-07 15:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-024,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-025,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-025,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-025,2026-10-07 11:30:00,support,Support Bar,,observed
+ATT-025,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-025,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-026,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-026,2026-10-07 10:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-026,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-026,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-027,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-027,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-027,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-027,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-027,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-028,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-028,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-028,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-028,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-029,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-029,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-029,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-029,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-030,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-030,2026-10-07 13:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-030,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-030,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-030,2026-10-07 14:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-030,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-031,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-031,2026-10-07 10:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-031,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-031,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-032,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-032,2026-10-07 12:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-032,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-032,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-033,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-033,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-033,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-033,2026-10-07 12:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-033,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-034,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-034,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-034,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-034,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-035,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-035,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-035,2026-10-07 11:15:00,support,Support Bar,,observed
+ATT-035,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-035,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-036,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-036,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-036,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-036,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-036,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-037,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-037,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-037,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-037,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-038,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-038,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-038,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-038,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-039,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-039,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-039,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-039,2026-10-07 13:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-039,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-040,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-040,2026-10-07 09:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-040,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-040,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-040,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-041,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-041,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-041,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-041,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-042,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-042,2026-10-07 10:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-042,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-042,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-042,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-043,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-043,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-043,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-043,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-044,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-044,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-044,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-044,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-045,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-045,2026-10-07 13:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-045,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-045,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-045,2026-10-07 14:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-045,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-046,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-046,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-046,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-046,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-047,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-047,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-047,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-047,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-048,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-048,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-048,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-048,2026-10-07 12:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-048,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-049,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-049,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-049,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-049,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-050,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-050,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-050,2026-10-07 13:00:00,support,Support Bar,,observed
+ATT-050,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-050,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-051,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-051,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-051,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-051,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-051,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-052,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-052,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-052,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-052,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-053,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-053,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-053,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-053,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-054,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-054,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-054,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-054,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-054,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-055,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-055,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-055,2026-10-07 13:15:00,support,Support Bar,,observed
+ATT-055,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-055,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-056,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-056,2026-10-07 10:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-056,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-056,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-057,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-057,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-057,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-057,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-057,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-058,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-058,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-058,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-058,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-059,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-059,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-059,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-059,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-060,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-060,2026-10-07 10:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-060,2026-10-07 10:45:00,support,Support Bar,,observed
+ATT-060,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-060,2026-10-07 11:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-060,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-061,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-061,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-061,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-061,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-062,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-062,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-062,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-062,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-063,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-063,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-063,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-063,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-063,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-064,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-064,2026-10-07 13:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-064,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-064,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-065,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-065,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-065,2026-10-07 12:00:00,support,Support Bar,,observed
+ATT-065,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-065,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-066,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-066,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-066,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-066,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-066,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-067,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-067,2026-10-07 11:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-067,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-067,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-068,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-068,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-068,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-068,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-069,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-069,2026-10-07 11:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-069,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-069,2026-10-07 12:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-069,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-070,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-070,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-070,2026-10-07 11:15:00,support,Support Bar,,observed
+ATT-070,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-070,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-071,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-071,2026-10-07 13:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-071,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-071,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-072,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-072,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-072,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-072,2026-10-07 15:15:00,session,Studio Two,Studio Two,observed
+ATT-072,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-073,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-073,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-073,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-073,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-074,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-074,2026-10-07 12:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-074,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-074,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-075,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-075,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-075,2026-10-07 11:45:00,support,Support Bar,,observed
+ATT-075,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-075,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-075,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-076,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-076,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-076,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-076,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-077,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-077,2026-10-07 10:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-077,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-077,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-078,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-078,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-078,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-078,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-078,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-079,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-079,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-079,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-079,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-080,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-080,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-080,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-080,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-080,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-081,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-081,2026-10-07 10:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-081,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-081,2026-10-07 11:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-081,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-082,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-082,2026-10-07 14:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-082,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-082,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-083,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-083,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-083,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-083,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-084,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-084,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-084,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-084,2026-10-07 12:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-084,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-085,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-085,2026-10-07 12:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-085,2026-10-07 13:00:00,support,Support Bar,,observed
+ATT-085,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-085,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-086,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-086,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-086,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-086,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-087,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-087,2026-10-07 13:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-087,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-087,2026-10-07 14:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-087,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-088,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-088,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-088,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-088,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-089,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-089,2026-10-07 10:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-089,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-089,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-090,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-090,2026-10-07 09:30:00,session,Studio Two,Studio Two,observed
+ATT-090,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-090,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-090,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-090,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-091,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-091,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-091,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-091,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-092,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-092,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-092,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-092,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-093,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-093,2026-10-07 10:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-093,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-093,2026-10-07 11:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-093,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-094,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-094,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-094,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-094,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-095,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-095,2026-10-07 09:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-095,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-095,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-095,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-096,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-096,2026-10-07 10:00:00,session,Studio Two,Studio Two,observed
+ATT-096,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-096,2026-10-07 11:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-096,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-097,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-097,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-097,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-097,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-098,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-098,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-098,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-098,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-099,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-099,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-099,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-099,2026-10-07 14:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-099,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-100,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-100,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-100,2026-10-07 14:30:00,support,Support Bar,,observed
+ATT-100,2026-10-07 15:00:00,community,Community Commons,,observed
+ATT-100,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-101,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-101,2026-10-07 11:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-101,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-101,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-102,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-102,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-102,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-102,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-102,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-103,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-103,2026-10-07 10:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-103,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-103,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-104,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-104,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-104,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-104,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-105,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-105,2026-10-07 12:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-105,2026-10-07 13:15:00,support,Support Bar,,observed
+ATT-105,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-105,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-105,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-106,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-106,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-106,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-106,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-107,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-107,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-107,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-107,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-108,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-108,2026-10-07 12:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-108,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-108,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-108,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-109,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-109,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-109,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-109,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-110,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-110,2026-10-07 11:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-110,2026-10-07 11:30:00,support,Support Bar,,observed
+ATT-110,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-110,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-111,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-111,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-111,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-111,2026-10-07 14:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-111,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-112,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-112,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-112,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-112,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-113,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-113,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-113,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-113,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-114,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-114,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-114,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-114,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-114,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-115,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-115,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-115,2026-10-07 14:15:00,support,Support Bar,,observed
+ATT-115,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-115,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-116,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-116,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-116,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-116,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-117,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-117,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-117,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-117,2026-10-07 14:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-117,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-118,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-118,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-118,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-118,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-119,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-119,2026-10-07 12:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-119,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-119,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-120,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-120,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-120,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-120,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-120,2026-10-07 14:45:00,session,Studio Two,Studio Two,observed
+ATT-120,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-121,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-121,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-121,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-121,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-122,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-122,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-122,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-122,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-123,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-123,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-123,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-123,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-123,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-124,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-124,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-124,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-124,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-125,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-125,2026-10-07 13:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-125,2026-10-07 14:15:00,support,Support Bar,,observed
+ATT-125,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-125,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-126,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-126,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-126,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-126,2026-10-07 14:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-126,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-127,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-127,2026-10-07 11:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-127,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-127,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-128,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-128,2026-10-07 09:45:00,session,Studio Two,Studio Two,observed
+ATT-128,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-128,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-129,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-129,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-129,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-129,2026-10-07 14:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-129,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-130,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-130,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-130,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-130,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-130,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-131,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-131,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-131,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-131,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-132,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-132,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-132,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-132,2026-10-07 14:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-132,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-133,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-133,2026-10-07 09:45:00,session,Studio Two,Studio Two,observed
+ATT-133,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-133,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-134,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-134,2026-10-07 10:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-134,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-134,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-135,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-135,2026-10-07 10:00:00,session,Studio Two,Studio Two,observed
+ATT-135,2026-10-07 10:30:00,support,Support Bar,,observed
+ATT-135,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-135,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-135,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-136,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-136,2026-10-07 11:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-136,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-136,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-137,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-137,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-137,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-137,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-138,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-138,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-138,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-138,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-138,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-139,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-139,2026-10-07 09:45:00,session,Studio Two,Studio Two,observed
+ATT-139,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-139,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-140,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-140,2026-10-07 10:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-140,2026-10-07 10:30:00,support,Support Bar,,observed
+ATT-140,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-140,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-141,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-141,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-141,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-141,2026-10-07 15:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-141,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-142,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-142,2026-10-07 12:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-142,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-142,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-143,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-143,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-143,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-143,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-144,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-144,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-144,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-144,2026-10-07 13:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-144,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-145,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-145,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-145,2026-10-07 13:00:00,support,Support Bar,,observed
+ATT-145,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-145,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-146,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-146,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-146,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-146,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-147,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-147,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-147,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-147,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-147,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-148,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-148,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-148,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-148,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-149,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-149,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-149,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-149,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-150,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-150,2026-10-07 10:00:00,session,Studio Two,Studio Two,observed
+ATT-150,2026-10-07 10:30:00,support,Support Bar,,observed
+ATT-150,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-150,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-150,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-151,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-151,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-151,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-151,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-152,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-152,2026-10-07 10:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-152,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-152,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-153,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-153,2026-10-07 10:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-153,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-153,2026-10-07 11:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-153,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-154,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-154,2026-10-07 11:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-154,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-154,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-155,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-155,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-155,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-155,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-155,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-156,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-156,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-156,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-156,2026-10-07 12:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-156,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-157,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-157,2026-10-07 09:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-157,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-157,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-158,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-158,2026-10-07 13:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-158,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-158,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-159,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-159,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-159,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-159,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-159,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-160,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-160,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-160,2026-10-07 10:45:00,support,Support Bar,,observed
+ATT-160,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-160,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-161,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-161,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-161,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-161,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-162,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-162,2026-10-07 11:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-162,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-162,2026-10-07 12:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-162,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-163,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-163,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-163,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-163,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-164,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-164,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-164,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-164,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-165,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-165,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-165,2026-10-07 12:00:00,support,Support Bar,,observed
+ATT-165,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-165,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-165,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-166,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-166,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-166,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-166,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-167,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-167,2026-10-07 10:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-167,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-167,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-168,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-168,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-168,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-168,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-168,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-169,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-169,2026-10-07 09:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-169,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-169,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-170,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-170,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-170,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-170,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-170,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-171,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-171,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-171,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-171,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-171,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-172,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-172,2026-10-07 13:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-172,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-172,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-173,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-173,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-173,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-173,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-174,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-174,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-174,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-174,2026-10-07 10:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-174,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-175,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-175,2026-10-07 10:30:00,session,Studio Two,Studio Two,observed
+ATT-175,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-175,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-175,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-176,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-176,2026-10-07 09:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-176,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-176,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-177,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-177,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-177,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-177,2026-10-07 15:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-177,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-178,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-178,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-178,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-178,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-179,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-179,2026-10-07 09:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-179,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-179,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-180,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-180,2026-10-07 12:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-180,2026-10-07 12:45:00,support,Support Bar,,observed
+ATT-180,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-180,2026-10-07 13:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-180,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-181,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-181,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-181,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-181,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-182,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-182,2026-10-07 11:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-182,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-182,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-183,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-183,2026-10-07 10:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-183,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-183,2026-10-07 11:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-183,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-184,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-184,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-184,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-184,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-185,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-185,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-185,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-185,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-185,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-186,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-186,2026-10-07 10:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-186,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-186,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-186,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-187,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-187,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-187,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-187,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-188,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-188,2026-10-07 12:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-188,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-188,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-189,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-189,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-189,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-189,2026-10-07 12:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-189,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-190,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-190,2026-10-07 10:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-190,2026-10-07 10:45:00,support,Support Bar,,observed
+ATT-190,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-190,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-191,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-191,2026-10-07 09:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-191,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-191,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-192,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-192,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-192,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-192,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-192,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-193,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-193,2026-10-07 12:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-193,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-193,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-194,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-194,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-194,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-194,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-195,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-195,2026-10-07 09:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-195,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-195,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-195,2026-10-07 11:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-195,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-196,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-196,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-196,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-196,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-197,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-197,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-197,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-197,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-198,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-198,2026-10-07 11:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-198,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-198,2026-10-07 12:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-198,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-199,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-199,2026-10-07 12:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-199,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-199,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-200,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-200,2026-10-07 13:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-200,2026-10-07 14:15:00,support,Support Bar,,observed
+ATT-200,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-200,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-201,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-201,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-201,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-201,2026-10-07 10:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-201,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-202,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-202,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-202,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-202,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-203,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-203,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-203,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-203,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-204,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-204,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-204,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-204,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-204,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-205,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-205,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-205,2026-10-07 12:45:00,support,Support Bar,,observed
+ATT-205,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-205,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-206,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-206,2026-10-07 12:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-206,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-206,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-207,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-207,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-207,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-207,2026-10-07 15:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-207,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-208,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-208,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-208,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-208,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-209,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-209,2026-10-07 11:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-209,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-209,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-210,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-210,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-210,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-210,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-210,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-210,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-211,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-211,2026-10-07 09:30:00,session,Studio Two,Studio Two,observed
+ATT-211,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-211,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-212,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-212,2026-10-07 13:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-212,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-212,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-213,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-213,2026-10-07 11:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-213,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-213,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-213,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-214,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-214,2026-10-07 10:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-214,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-214,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-215,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-215,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-215,2026-10-07 12:30:00,support,Support Bar,,observed
+ATT-215,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-215,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-216,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-216,2026-10-07 12:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-216,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-216,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-216,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-217,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-217,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-217,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-217,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-218,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-218,2026-10-07 11:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-218,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-218,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-219,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-219,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-219,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-219,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-219,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-220,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-220,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-220,2026-10-07 12:15:00,support,Support Bar,,observed
+ATT-220,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-220,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-221,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-221,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-221,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-221,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-222,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-222,2026-10-07 12:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-222,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-222,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-222,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-223,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-223,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-223,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-223,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-224,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-224,2026-10-07 14:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-224,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-224,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-225,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-225,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-225,2026-10-07 13:00:00,support,Support Bar,,observed
+ATT-225,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-225,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-225,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-226,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-226,2026-10-07 11:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-226,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-226,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-227,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-227,2026-10-07 11:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-227,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-227,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-228,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-228,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-228,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-228,2026-10-07 15:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-228,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-229,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-229,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-229,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-229,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-230,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-230,2026-10-07 13:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-230,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-230,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-230,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-231,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-231,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-231,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-231,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-231,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-232,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-232,2026-10-07 10:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-232,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-232,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-233,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-233,2026-10-07 10:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-233,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-233,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-234,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-234,2026-10-07 13:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-234,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-234,2026-10-07 14:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-234,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-235,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-235,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-235,2026-10-07 12:30:00,support,Support Bar,,observed
+ATT-235,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-235,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-236,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-236,2026-10-07 11:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-236,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-236,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-237,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-237,2026-10-07 11:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-237,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-237,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-237,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-238,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-238,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-238,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-238,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-239,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-239,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-239,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-239,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-240,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-240,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-240,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-240,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-240,2026-10-07 14:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-240,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-241,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-241,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-241,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-241,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-242,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-242,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-242,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-242,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-243,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-243,2026-10-07 12:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-243,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-243,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-243,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-244,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-244,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-244,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-244,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-245,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-245,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-245,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-245,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-245,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-246,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-246,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-246,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-246,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-246,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-247,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-247,2026-10-07 13:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-247,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-247,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-248,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-248,2026-10-07 09:45:00,session,Studio Two,Studio Two,observed
+ATT-248,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-248,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-249,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-249,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-249,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-249,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-249,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-250,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-250,2026-10-07 10:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-250,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-250,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-250,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-251,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-251,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-251,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-251,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-252,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-252,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-252,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-252,2026-10-07 15:15:00,session,Studio Two,Studio Two,observed
+ATT-252,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-253,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-253,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-253,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-253,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-254,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-254,2026-10-07 13:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-254,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-254,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-255,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-255,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-255,2026-10-07 14:15:00,support,Support Bar,,observed
+ATT-255,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-255,2026-10-07 15:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-255,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-256,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-256,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-256,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-256,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-257,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-257,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-257,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-257,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-258,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-258,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-258,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-258,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-258,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-259,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-259,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-259,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-259,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-260,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-260,2026-10-07 13:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-260,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-260,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-260,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-261,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-261,2026-10-07 11:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-261,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-261,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-261,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-262,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-262,2026-10-07 12:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-262,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-262,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-263,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-263,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-263,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-263,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-264,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-264,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-264,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-264,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-264,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-265,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-265,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-265,2026-10-07 13:00:00,support,Support Bar,,observed
+ATT-265,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-265,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-266,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-266,2026-10-07 11:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-266,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-266,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-267,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-267,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-267,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-267,2026-10-07 13:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-267,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-268,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-268,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-268,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-268,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-269,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-269,2026-10-07 12:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-269,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-269,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-270,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-270,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-270,2026-10-07 11:30:00,support,Support Bar,,observed
+ATT-270,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-270,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-270,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-271,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-271,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-271,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-271,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-272,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-272,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-272,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-272,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-273,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-273,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-273,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-273,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-273,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-274,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-274,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-274,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-274,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-275,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-275,2026-10-07 12:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-275,2026-10-07 13:15:00,support,Support Bar,,observed
+ATT-275,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-275,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-276,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-276,2026-10-07 13:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-276,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-276,2026-10-07 14:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-276,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-277,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-277,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-277,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-277,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-278,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-278,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-278,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-278,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-279,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-279,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-279,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-279,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-279,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-280,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-280,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-280,2026-10-07 12:30:00,support,Support Bar,,observed
+ATT-280,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-280,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-281,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-281,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-281,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-281,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-282,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-282,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-282,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-282,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-282,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-283,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-283,2026-10-07 09:30:00,session,Studio Two,Studio Two,observed
+ATT-283,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-283,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-284,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-284,2026-10-07 14:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-284,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-284,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-285,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-285,2026-10-07 09:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-285,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-285,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-285,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-285,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-286,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-286,2026-10-07 10:30:00,session,Studio Two,Studio Two,observed
+ATT-286,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-286,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-287,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-287,2026-10-07 10:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-287,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-287,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-288,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-288,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-288,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-288,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-288,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-289,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-289,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-289,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-289,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-290,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-290,2026-10-07 12:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-290,2026-10-07 12:30:00,support,Support Bar,,observed
+ATT-290,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-290,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-291,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-291,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-291,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-291,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-291,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-292,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-292,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-292,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-292,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-293,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-293,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-293,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-293,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-294,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-294,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-294,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-294,2026-10-07 14:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-294,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-295,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-295,2026-10-07 11:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-295,2026-10-07 11:45:00,support,Support Bar,,observed
+ATT-295,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-295,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-296,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-296,2026-10-07 09:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-296,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-296,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-297,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-297,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-297,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-297,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-297,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-298,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-298,2026-10-07 14:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-298,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-298,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-299,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-299,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-299,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-299,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-300,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-300,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-300,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-300,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-300,2026-10-07 14:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-300,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-301,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-301,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-301,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-301,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-302,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-302,2026-10-07 11:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-302,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-302,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-303,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-303,2026-10-07 10:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-303,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-303,2026-10-07 11:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-303,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-304,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-304,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-304,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-304,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-305,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-305,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-305,2026-10-07 12:15:00,support,Support Bar,,observed
+ATT-305,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-305,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-306,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-306,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-306,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-306,2026-10-07 15:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-306,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-307,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-307,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-307,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-307,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-308,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-308,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-308,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-308,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-309,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-309,2026-10-07 10:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-309,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-309,2026-10-07 11:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-309,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-310,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-310,2026-10-07 10:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-310,2026-10-07 10:45:00,support,Support Bar,,observed
+ATT-310,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-310,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-311,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-311,2026-10-07 14:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-311,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-311,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-312,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-312,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-312,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-312,2026-10-07 15:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-312,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-313,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-313,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-313,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-313,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-314,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-314,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-314,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-314,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-315,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-315,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-315,2026-10-07 14:00:00,support,Support Bar,,observed
+ATT-315,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-315,2026-10-07 15:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-315,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-316,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-316,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-316,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-316,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-317,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-317,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-317,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-317,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-318,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-318,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-318,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-318,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-318,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-319,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-319,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-319,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-319,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-320,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-320,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-320,2026-10-07 14:00:00,support,Support Bar,,observed
+ATT-320,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-320,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-321,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-321,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-321,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-321,2026-10-07 15:15:00,session,Studio Two,Studio Two,observed
+ATT-321,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-322,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-322,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-322,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-322,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-323,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-323,2026-10-07 14:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-323,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-323,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-324,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-324,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-324,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-324,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-324,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-325,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-325,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-325,2026-10-07 12:00:00,support,Support Bar,,observed
+ATT-325,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-325,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-326,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-326,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-326,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-326,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-327,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-327,2026-10-07 14:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-327,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-327,2026-10-07 15:00:00,session,Studio Two,Studio Two,observed
+ATT-327,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-328,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-328,2026-10-07 12:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-328,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-328,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-329,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-329,2026-10-07 13:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-329,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-329,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-330,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-330,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-330,2026-10-07 11:15:00,support,Support Bar,,observed
+ATT-330,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-330,2026-10-07 12:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-330,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-331,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-331,2026-10-07 12:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-331,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-331,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-332,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-332,2026-10-07 12:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-332,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-332,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-333,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-333,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-333,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-333,2026-10-07 15:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-333,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-334,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-334,2026-10-07 09:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-334,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-334,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-335,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-335,2026-10-07 11:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-335,2026-10-07 11:30:00,support,Support Bar,,observed
+ATT-335,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-335,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-336,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-336,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-336,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-336,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-336,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-337,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-337,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-337,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-337,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-338,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-338,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-338,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-338,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-339,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-339,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-339,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-339,2026-10-07 14:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-339,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-340,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-340,2026-10-07 11:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-340,2026-10-07 12:15:00,support,Support Bar,,observed
+ATT-340,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-340,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-341,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-341,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-341,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-341,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-342,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-342,2026-10-07 11:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-342,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-342,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-342,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-343,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-343,2026-10-07 13:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-343,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-343,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-344,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-344,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-344,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-344,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-345,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-345,2026-10-07 12:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-345,2026-10-07 13:15:00,support,Support Bar,,observed
+ATT-345,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-345,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-345,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-346,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-346,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-346,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-346,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-347,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-347,2026-10-07 11:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-347,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-347,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-348,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-348,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-348,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-348,2026-10-07 12:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-348,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-349,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-349,2026-10-07 11:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-349,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-349,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-350,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-350,2026-10-07 10:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-350,2026-10-07 10:45:00,support,Support Bar,,observed
+ATT-350,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-350,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-351,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-351,2026-10-07 10:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-351,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-351,2026-10-07 11:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-351,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-352,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-352,2026-10-07 13:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-352,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-352,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-353,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-353,2026-10-07 14:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-353,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-353,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-354,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-354,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-354,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-354,2026-10-07 15:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-354,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-355,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-355,2026-10-07 11:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-355,2026-10-07 11:30:00,support,Support Bar,,observed
+ATT-355,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-355,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-356,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-356,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-356,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-356,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-357,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-357,2026-10-07 10:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-357,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-357,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-357,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-358,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-358,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-358,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-358,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-359,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-359,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-359,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-359,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-360,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-360,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-360,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-360,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-360,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-360,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-361,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-361,2026-10-07 10:30:00,session,Studio Two,Studio Two,observed
+ATT-361,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-361,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-362,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-362,2026-10-07 10:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-362,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-362,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-363,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-363,2026-10-07 14:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-363,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-363,2026-10-07 15:00:00,session,Studio Two,Studio Two,observed
+ATT-363,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-364,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-364,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-364,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-364,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-365,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-365,2026-10-07 12:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-365,2026-10-07 12:30:00,support,Support Bar,,observed
+ATT-365,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-365,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-366,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-366,2026-10-07 09:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-366,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-366,2026-10-07 10:45:00,session,Studio Two,Studio Two,observed
+ATT-366,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-367,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-367,2026-10-07 10:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-367,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-367,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-368,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-368,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-368,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-368,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-369,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-369,2026-10-07 10:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-369,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-369,2026-10-07 11:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-369,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-370,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-370,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-370,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-370,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-370,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-371,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-371,2026-10-07 14:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-371,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-371,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-372,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-372,2026-10-07 10:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-372,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-372,2026-10-07 11:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-372,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-373,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-373,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-373,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-373,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-374,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-374,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-374,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-374,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-375,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-375,2026-10-07 14:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-375,2026-10-07 14:45:00,support,Support Bar,,observed
+ATT-375,2026-10-07 15:15:00,community,Community Commons,,observed
+ATT-375,2026-10-07 15:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-375,2026-10-07 16:15:00,exit,Exit,,completed
+ATT-376,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-376,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-376,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-376,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-377,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-377,2026-10-07 13:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-377,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-377,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-378,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-378,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-378,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-378,2026-10-07 15:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-378,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-379,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-379,2026-10-07 14:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-379,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-379,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-380,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-380,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-380,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-380,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-380,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-381,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-381,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-381,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-381,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-381,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-382,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-382,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-382,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-382,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-383,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-383,2026-10-07 10:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-383,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-383,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-384,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-384,2026-10-07 10:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-384,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-384,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-384,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-385,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-385,2026-10-07 10:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-385,2026-10-07 11:15:00,support,Support Bar,,observed
+ATT-385,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-385,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-386,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-386,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-386,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-386,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-387,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-387,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-387,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-387,2026-10-07 15:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-387,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-388,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-388,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-388,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-388,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-389,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-389,2026-10-07 11:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-389,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-389,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-390,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-390,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-390,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-390,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-390,2026-10-07 14:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-390,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-391,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-391,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-391,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-391,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-392,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-392,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-392,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-392,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-393,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-393,2026-10-07 10:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-393,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-393,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-393,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-394,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-394,2026-10-07 10:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-394,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-394,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-395,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-395,2026-10-07 10:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-395,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-395,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-395,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-396,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-396,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-396,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-396,2026-10-07 10:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-396,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-397,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-397,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-397,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-397,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-398,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-398,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-398,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-398,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-399,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-399,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-399,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-399,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-399,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-400,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-400,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-400,2026-10-07 13:00:00,support,Support Bar,,observed
+ATT-400,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-400,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-401,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-401,2026-10-07 13:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-401,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-401,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-402,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-402,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-402,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-402,2026-10-07 14:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-402,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-403,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-403,2026-10-07 14:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-403,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-403,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-404,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-404,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-404,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-404,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-405,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-405,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-405,2026-10-07 14:45:00,support,Support Bar,,observed
+ATT-405,2026-10-07 15:15:00,community,Community Commons,,observed
+ATT-405,2026-10-07 15:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-405,2026-10-07 16:15:00,exit,Exit,,completed
+ATT-406,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-406,2026-10-07 10:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-406,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-406,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-407,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-407,2026-10-07 14:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-407,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-407,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-408,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-408,2026-10-07 09:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-408,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-408,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-408,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-409,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-409,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-409,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-409,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-410,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-410,2026-10-07 13:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-410,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-410,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-410,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-411,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-411,2026-10-07 13:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-411,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-411,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-411,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-412,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-412,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-412,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-412,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-413,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-413,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-413,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-413,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-414,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-414,2026-10-07 13:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-414,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-414,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-414,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-415,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-415,2026-10-07 12:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-415,2026-10-07 12:30:00,support,Support Bar,,observed
+ATT-415,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-415,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-416,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-416,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-416,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-416,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-417,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-417,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-417,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-417,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-417,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-418,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-418,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-418,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-418,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-419,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-419,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-419,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-419,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-420,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-420,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-420,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-420,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-420,2026-10-07 14:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-420,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-421,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-421,2026-10-07 11:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-421,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-421,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-422,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-422,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-422,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-422,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-423,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-423,2026-10-07 13:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-423,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-423,2026-10-07 14:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-423,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-424,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-424,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-424,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-424,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-425,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-425,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-425,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-425,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-425,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-426,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-426,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-426,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-426,2026-10-07 14:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-426,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-427,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-427,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-427,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-427,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-428,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-428,2026-10-07 09:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-428,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-428,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-429,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-429,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-429,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-429,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-429,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-430,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-430,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-430,2026-10-07 12:15:00,support,Support Bar,,observed
+ATT-430,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-430,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-431,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-431,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-431,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-431,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-432,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-432,2026-10-07 09:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-432,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-432,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-432,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-433,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-433,2026-10-07 10:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-433,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-433,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-434,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-434,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-434,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-434,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-435,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-435,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-435,2026-10-07 14:15:00,support,Support Bar,,observed
+ATT-435,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-435,2026-10-07 15:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-435,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-436,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-436,2026-10-07 11:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-436,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-436,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-437,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-437,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-437,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-437,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-438,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-438,2026-10-07 10:30:00,session,Studio Two,Studio Two,observed
+ATT-438,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-438,2026-10-07 11:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-438,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-439,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-439,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-439,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-439,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-440,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-440,2026-10-07 12:45:00,session,Studio Two,Studio Two,observed
+ATT-440,2026-10-07 13:15:00,support,Support Bar,,observed
+ATT-440,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-440,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-441,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-441,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-441,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-441,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-441,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-442,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-442,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-442,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-442,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-443,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-443,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-443,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-443,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-444,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-444,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-444,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-444,2026-10-07 15:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-444,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-445,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-445,2026-10-07 10:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-445,2026-10-07 10:30:00,support,Support Bar,,observed
+ATT-445,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-445,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-446,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-446,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-446,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-446,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-447,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-447,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-447,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-447,2026-10-07 14:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-447,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-448,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-448,2026-10-07 11:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-448,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-448,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-449,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-449,2026-10-07 14:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-449,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-449,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-450,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-450,2026-10-07 13:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-450,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-450,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-450,2026-10-07 14:45:00,session,Studio Two,Studio Two,observed
+ATT-450,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-451,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-451,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-451,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-451,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-452,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-452,2026-10-07 12:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-452,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-452,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-453,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-453,2026-10-07 13:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-453,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-453,2026-10-07 14:45:00,session,Studio Two,Studio Two,observed
+ATT-453,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-454,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-454,2026-10-07 13:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-454,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-454,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-455,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-455,2026-10-07 11:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-455,2026-10-07 11:30:00,support,Support Bar,,observed
+ATT-455,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-455,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-456,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-456,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-456,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-456,2026-10-07 15:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-456,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-457,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-457,2026-10-07 12:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-457,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-457,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-458,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-458,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-458,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-458,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-459,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-459,2026-10-07 12:30:00,session,Studio Two,Studio Two,observed
+ATT-459,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-459,2026-10-07 13:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-459,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-460,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-460,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-460,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-460,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-460,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-461,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-461,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-461,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-461,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-462,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-462,2026-10-07 14:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-462,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-462,2026-10-07 15:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-462,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-463,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-463,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-463,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-463,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-464,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-464,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-464,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-464,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-465,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-465,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-465,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-465,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-465,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-465,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-466,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-466,2026-10-07 10:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-466,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-466,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-467,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-467,2026-10-07 13:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-467,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-467,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-468,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-468,2026-10-07 12:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-468,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-468,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-468,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-469,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-469,2026-10-07 10:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-469,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-469,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-470,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-470,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-470,2026-10-07 14:15:00,support,Support Bar,,observed
+ATT-470,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-470,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-471,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-471,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-471,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-471,2026-10-07 13:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-471,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-472,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-472,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-472,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-472,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-473,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-473,2026-10-07 10:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-473,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-473,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-474,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-474,2026-10-07 11:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-474,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-474,2026-10-07 12:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-474,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-475,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-475,2026-10-07 12:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-475,2026-10-07 13:15:00,support,Support Bar,,observed
+ATT-475,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-475,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-476,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-476,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-476,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-476,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-477,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-477,2026-10-07 10:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-477,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-477,2026-10-07 11:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-477,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-478,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-478,2026-10-07 09:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-478,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-478,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-479,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-479,2026-10-07 09:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-479,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-479,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-480,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-480,2026-10-07 12:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-480,2026-10-07 12:45:00,support,Support Bar,,observed
+ATT-480,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-480,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-480,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-481,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-481,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-481,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-481,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-482,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-482,2026-10-07 13:30:00,session,Studio Two,Studio Two,observed
+ATT-482,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-482,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-483,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-483,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-483,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-483,2026-10-07 15:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-483,2026-10-07 15:30:00,exit,Exit,,completed
+ATT-484,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-484,2026-10-07 10:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-484,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-484,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-485,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-485,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-485,2026-10-07 14:45:00,support,Support Bar,,observed
+ATT-485,2026-10-07 15:15:00,community,Community Commons,,observed
+ATT-485,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-486,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-486,2026-10-07 14:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-486,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-486,2026-10-07 15:15:00,session,Studio Two,Studio Two,observed
+ATT-486,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-487,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-487,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-487,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-487,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-488,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-488,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-488,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-488,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-489,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-489,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-489,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-489,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-489,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-490,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-490,2026-10-07 09:30:00,session,Studio Two,Studio Two,observed
+ATT-490,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-490,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-490,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-491,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-491,2026-10-07 11:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-491,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-491,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-492,2026-10-07 10:15:00,arrival,Arrival Hub,,observed
+ATT-492,2026-10-07 10:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-492,2026-10-07 11:15:00,community,Community Commons,,observed
+ATT-492,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-492,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-493,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-493,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-493,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-493,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-494,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-494,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-494,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-494,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-495,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-495,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-495,2026-10-07 12:00:00,support,Support Bar,,observed
+ATT-495,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-495,2026-10-07 13:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-495,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-496,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-496,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-496,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-496,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-497,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-497,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-497,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-497,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-498,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-498,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-498,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-498,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-498,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-499,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-499,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-499,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-499,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-500,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-500,2026-10-07 11:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-500,2026-10-07 12:15:00,support,Support Bar,,observed
+ATT-500,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-500,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-501,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-501,2026-10-07 09:30:00,session,Studio Two,Studio Two,observed
+ATT-501,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-501,2026-10-07 10:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-501,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-502,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-502,2026-10-07 09:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-502,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-502,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-503,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-503,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-503,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-503,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-504,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-504,2026-10-07 13:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-504,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-504,2026-10-07 14:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-504,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-505,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-505,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-505,2026-10-07 14:45:00,support,Support Bar,,observed
+ATT-505,2026-10-07 15:15:00,community,Community Commons,,observed
+ATT-505,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-506,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-506,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-506,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-506,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-507,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-507,2026-10-07 14:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-507,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-507,2026-10-07 15:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-507,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-508,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-508,2026-10-07 10:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-508,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-508,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-509,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-509,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-509,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-509,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-510,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-510,2026-10-07 09:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-510,2026-10-07 10:15:00,support,Support Bar,,observed
+ATT-510,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-510,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-510,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-511,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-511,2026-10-07 10:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-511,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-511,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-512,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-512,2026-10-07 11:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-512,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-512,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-513,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-513,2026-10-07 12:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-513,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-513,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-513,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-514,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-514,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-514,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-514,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-515,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-515,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-515,2026-10-07 12:45:00,support,Support Bar,,observed
+ATT-515,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-515,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-516,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-516,2026-10-07 13:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-516,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-516,2026-10-07 14:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-516,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-517,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-517,2026-10-07 11:30:00,session,Studio Two,Studio Two,observed
+ATT-517,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-517,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-518,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-518,2026-10-07 11:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-518,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-518,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-519,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-519,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-519,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-519,2026-10-07 11:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-519,2026-10-07 11:45:00,exit,Exit,,completed
+ATT-520,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-520,2026-10-07 10:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-520,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-520,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-520,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-521,2026-10-07 12:00:00,arrival,Arrival Hub,,observed
+ATT-521,2026-10-07 12:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-521,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-521,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-522,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-522,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-522,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-522,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-522,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-523,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-523,2026-10-07 09:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-523,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-523,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-524,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-524,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-524,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-524,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-525,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-525,2026-10-07 13:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-525,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-525,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-525,2026-10-07 14:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-525,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-526,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-526,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-526,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-526,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-527,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-527,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-527,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-527,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-528,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-528,2026-10-07 11:15:00,session,Studio Two,Studio Two,observed
+ATT-528,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-528,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-528,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-529,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-529,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-529,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-529,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-530,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-530,2026-10-07 12:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-530,2026-10-07 12:30:00,support,Support Bar,,observed
+ATT-530,2026-10-07 13:00:00,community,Community Commons,,observed
+ATT-530,2026-10-07 13:30:00,exit,Exit,,completed
+ATT-531,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-531,2026-10-07 11:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-531,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-531,2026-10-07 12:15:00,session,Studio Two,Studio Two,observed
+ATT-531,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-532,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-532,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-532,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-532,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-533,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-533,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-533,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-533,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-534,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-534,2026-10-07 09:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-534,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-534,2026-10-07 10:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-534,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-535,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-535,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-535,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-535,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-535,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-536,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-536,2026-10-07 10:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-536,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-536,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-537,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-537,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-537,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-537,2026-10-07 14:45:00,session,Studio Two,Studio Two,observed
+ATT-537,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-538,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-538,2026-10-07 13:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-538,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-538,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-539,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-539,2026-10-07 13:45:00,session,Studio Two,Studio Two,observed
+ATT-539,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-539,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-540,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-540,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-540,2026-10-07 14:30:00,support,Support Bar,,observed
+ATT-540,2026-10-07 15:00:00,community,Community Commons,,observed
+ATT-540,2026-10-07 15:30:00,session,Studio Two,Studio Two,observed
+ATT-540,2026-10-07 16:00:00,exit,Exit,,completed
+ATT-541,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-541,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-541,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-541,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-542,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-542,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-542,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-542,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-543,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-543,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-543,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-543,2026-10-07 12:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-543,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-544,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-544,2026-10-07 11:00:00,session,Studio Two,Studio Two,observed
+ATT-544,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-544,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-545,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-545,2026-10-07 13:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-545,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-545,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-545,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-546,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-546,2026-10-07 12:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-546,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-546,2026-10-07 13:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-546,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-547,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-547,2026-10-07 13:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-547,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-547,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-548,2026-10-07 09:15:00,arrival,Arrival Hub,,observed
+ATT-548,2026-10-07 09:45:00,session,Studio Two,Studio Two,observed
+ATT-548,2026-10-07 10:15:00,community,Community Commons,,observed
+ATT-548,2026-10-07 10:45:00,exit,Exit,,completed
+ATT-549,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-549,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-549,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-549,2026-10-07 12:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-549,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-550,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-550,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-550,2026-10-07 13:30:00,support,Support Bar,,observed
+ATT-550,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-550,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-551,2026-10-07 10:30:00,arrival,Arrival Hub,,observed
+ATT-551,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-551,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-551,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-552,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-552,2026-10-07 09:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-552,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-552,2026-10-07 10:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-552,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-553,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-553,2026-10-07 11:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-553,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-553,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-554,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-554,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-554,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-554,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-555,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-555,2026-10-07 10:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-555,2026-10-07 10:30:00,support,Support Bar,,observed
+ATT-555,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-555,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-555,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-556,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-556,2026-10-07 14:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-556,2026-10-07 14:30:00,community,Community Commons,,observed
+ATT-556,2026-10-07 15:00:00,exit,Exit,,completed
+ATT-557,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-557,2026-10-07 11:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-557,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-557,2026-10-07 12:15:00,exit,Exit,,completed
+ATT-558,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-558,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-558,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-558,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-558,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-559,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-559,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-559,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-559,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-560,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-560,2026-10-07 10:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-560,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-560,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-560,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-561,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-561,2026-10-07 11:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-561,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-561,2026-10-07 12:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-561,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-562,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-562,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-562,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-562,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-563,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-563,2026-10-07 09:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-563,2026-10-07 10:00:00,community,Community Commons,,observed
+ATT-563,2026-10-07 10:30:00,exit,Exit,,completed
+ATT-564,2026-10-07 10:45:00,arrival,Arrival Hub,,observed
+ATT-564,2026-10-07 11:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-564,2026-10-07 11:45:00,community,Community Commons,,observed
+ATT-564,2026-10-07 12:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-564,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-565,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-565,2026-10-07 09:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-565,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-565,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-565,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-566,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-566,2026-10-07 11:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-566,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-566,2026-10-07 12:30:00,exit,Exit,,completed
+ATT-567,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-567,2026-10-07 10:30:00,session,Studio Two,Studio Two,observed
+ATT-567,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-567,2026-10-07 11:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-567,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-568,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-568,2026-10-07 10:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-568,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-568,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-569,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-569,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-569,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-569,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-570,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-570,2026-10-07 12:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-570,2026-10-07 12:45:00,support,Support Bar,,observed
+ATT-570,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-570,2026-10-07 13:45:00,session,Workshop Loft,Workshop Loft,observed
+ATT-570,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-571,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-571,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-571,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-571,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-572,2026-10-07 13:00:00,arrival,Arrival Hub,,observed
+ATT-572,2026-10-07 13:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-572,2026-10-07 14:00:00,community,Community Commons,,observed
+ATT-572,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-573,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-573,2026-10-07 14:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-573,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-573,2026-10-07 15:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-573,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-574,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-574,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-574,2026-10-07 12:15:00,community,Community Commons,,observed
+ATT-574,2026-10-07 12:45:00,exit,Exit,,completed
+ATT-575,2026-10-07 09:00:00,arrival,Arrival Hub,,observed
+ATT-575,2026-10-07 09:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-575,2026-10-07 10:00:00,support,Support Bar,,observed
+ATT-575,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-575,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-576,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-576,2026-10-07 13:15:00,session,Studio Two,Studio Two,observed
+ATT-576,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-576,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-576,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-577,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-577,2026-10-07 10:15:00,session,Studio Two,Studio Two,observed
+ATT-577,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-577,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-578,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-578,2026-10-07 13:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-578,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-578,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-579,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-579,2026-10-07 10:00:00,session,Circuit Lab,Circuit Lab,observed
+ATT-579,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-579,2026-10-07 11:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-579,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-580,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-580,2026-10-07 10:30:00,session,Momentum Hall,Momentum Hall,observed
+ATT-580,2026-10-07 11:00:00,support,Support Bar,,observed
+ATT-580,2026-10-07 11:30:00,community,Community Commons,,observed
+ATT-580,2026-10-07 12:00:00,exit,Exit,,completed
+ATT-581,2026-10-07 10:00:00,arrival,Arrival Hub,,observed
+ATT-581,2026-10-07 10:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-581,2026-10-07 11:00:00,community,Community Commons,,observed
+ATT-581,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-582,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-582,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-582,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-582,2026-10-07 15:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-582,2026-10-07 15:45:00,exit,Exit,,completed
+ATT-583,2026-10-07 11:30:00,arrival,Arrival Hub,,observed
+ATT-583,2026-10-07 12:00:00,session,Studio Two,Studio Two,observed
+ATT-583,2026-10-07 12:30:00,community,Community Commons,,observed
+ATT-583,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-584,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-584,2026-10-07 14:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-584,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-584,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-585,2026-10-07 11:15:00,arrival,Arrival Hub,,observed
+ATT-585,2026-10-07 11:45:00,session,Studio Two,Studio Two,observed
+ATT-585,2026-10-07 12:15:00,support,Support Bar,,observed
+ATT-585,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-585,2026-10-07 13:15:00,session,Workshop Loft,Workshop Loft,observed
+ATT-585,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-586,2026-10-07 13:45:00,arrival,Arrival Hub,,observed
+ATT-586,2026-10-07 14:15:00,session,Studio Two,Studio Two,observed
+ATT-586,2026-10-07 14:45:00,community,Community Commons,,observed
+ATT-586,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-587,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-587,2026-10-07 10:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-587,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-587,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-588,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-588,2026-10-07 13:45:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-588,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-588,2026-10-07 14:45:00,session,Studio Two,Studio Two,observed
+ATT-588,2026-10-07 15:15:00,exit,Exit,,completed
+ATT-589,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-589,2026-10-07 13:00:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-589,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-589,2026-10-07 14:00:00,exit,Exit,,completed
+ATT-590,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-590,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-590,2026-10-07 13:15:00,support,Support Bar,,observed
+ATT-590,2026-10-07 13:45:00,community,Community Commons,,observed
+ATT-590,2026-10-07 14:15:00,exit,Exit,,completed
+ATT-591,2026-10-07 12:30:00,arrival,Arrival Hub,,observed
+ATT-591,2026-10-07 13:00:00,session,Studio Two,Studio Two,observed
+ATT-591,2026-10-07 13:30:00,community,Community Commons,,observed
+ATT-591,2026-10-07 14:00:00,session,Studio Two,Studio Two,observed
+ATT-591,2026-10-07 14:30:00,exit,Exit,,completed
+ATT-592,2026-10-07 09:45:00,arrival,Arrival Hub,,observed
+ATT-592,2026-10-07 10:15:00,session,Circuit Lab,Circuit Lab,observed
+ATT-592,2026-10-07 10:45:00,community,Community Commons,,observed
+ATT-592,2026-10-07 11:15:00,exit,Exit,,completed
+ATT-593,2026-10-07 12:15:00,arrival,Arrival Hub,,observed
+ATT-593,2026-10-07 12:45:00,session,Circuit Lab,Circuit Lab,observed
+ATT-593,2026-10-07 13:15:00,community,Community Commons,,observed
+ATT-593,2026-10-07 13:45:00,exit,Exit,,completed
+ATT-594,2026-10-07 11:00:00,arrival,Arrival Hub,,observed
+ATT-594,2026-10-07 11:30:00,session,Circuit Lab,Circuit Lab,observed
+ATT-594,2026-10-07 12:00:00,community,Community Commons,,observed
+ATT-594,2026-10-07 12:30:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-594,2026-10-07 13:00:00,exit,Exit,,completed
+ATT-595,2026-10-07 12:45:00,arrival,Arrival Hub,,observed
+ATT-595,2026-10-07 13:15:00,session,Momentum Hall,Momentum Hall,observed
+ATT-595,2026-10-07 13:45:00,support,Support Bar,,observed
+ATT-595,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-595,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-596,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-596,2026-10-07 10:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-596,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-596,2026-10-07 11:00:00,exit,Exit,,completed
+ATT-597,2026-10-07 09:30:00,arrival,Arrival Hub,,observed
+ATT-597,2026-10-07 10:00:00,session,Studio Two,Studio Two,observed
+ATT-597,2026-10-07 10:30:00,community,Community Commons,,observed
+ATT-597,2026-10-07 11:00:00,session,Momentum Hall,Momentum Hall,observed
+ATT-597,2026-10-07 11:30:00,exit,Exit,,completed
+ATT-598,2026-10-07 11:45:00,arrival,Arrival Hub,,observed
+ATT-598,2026-10-07 12:15:00,session,Catalyst Theater,Catalyst Theater,observed
+ATT-598,2026-10-07 12:45:00,community,Community Commons,,observed
+ATT-598,2026-10-07 13:15:00,exit,Exit,,completed
+ATT-599,2026-10-07 13:15:00,arrival,Arrival Hub,,observed
+ATT-599,2026-10-07 13:45:00,session,Momentum Hall,Momentum Hall,observed
+ATT-599,2026-10-07 14:15:00,community,Community Commons,,observed
+ATT-599,2026-10-07 14:45:00,exit,Exit,,completed
+ATT-600,2026-10-07 13:30:00,arrival,Arrival Hub,,observed
+ATT-600,2026-10-07 14:00:00,session,Workshop Loft,Workshop Loft,observed
+ATT-600,2026-10-07 14:30:00,support,Support Bar,,observed
+ATT-600,2026-10-07 15:00:00,community,Community Commons,,observed
+ATT-600,2026-10-07 15:30:00,session,Workshop Loft,Workshop Loft,observed
+ATT-600,2026-10-07 16:00:00,exit,Exit,,completed

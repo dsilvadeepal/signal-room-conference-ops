@@ -143,30 +143,30 @@
 **Interfaces:**
 - Produces: an importable `signal_room` package and a runnable `app.py` entry point for later tasks.
 
-- [ ] **Step 1: Write the failing smoke test**
+- [x] **Step 1: Write the failing smoke test**
 
 ```python
 def test_package_imports():
     import signal_room
 ```
 
-- [ ] **Step 2: Run the test to verify it fails**
+- [x] **Step 2: Run the test to verify it fails**
 
 Run: `python -m pytest tests/test_smoke.py -v`
 
 Expected: FAIL because `signal_room` does not exist.
 
-- [ ] **Step 3: Add the minimal project configuration and package**
+- [x] **Step 3: Add the minimal project configuration and package**
 
 Create `requirements.txt` with Streamlit, pandas, Plotly, and pytest. Add `.gitignore` entries for `.venv/`, `.env`, `.streamlit/secrets.toml`, `__pycache__/`, and `.pytest_cache/`. Create an `app.py` that renders the Signal Room title and “Simulated event replay” label. Create the package initializer.
 
-- [ ] **Step 4: Verify the baseline**
+- [x] **Step 4: Verify the baseline**
 
 Run: `python -m pytest tests/test_smoke.py -v` and `streamlit run app.py`.
 
 Expected: smoke test passes; the local page loads without requiring credentials.
 
-- [ ] **Step 5: Commit the runnable baseline**
+- [x] **Step 5: Commit the runnable baseline**
 
 ```bash
 git add -- .gitignore requirements.txt README.md app.py src/signal_room/__init__.py tests/test_smoke.py
@@ -183,27 +183,27 @@ git commit -m "Build Signal Room project scaffold"
 - Produces: `generate_conference_signals(seed: int) -> pandas.DataFrame`, `generate_attendee_journeys(seed: int) -> pandas.DataFrame`, and `write_demo_data(output_dir: pathlib.Path, seed: int) -> tuple[pathlib.Path, pathlib.Path]`.
 - Consumes: fixed conference schedule and entity constants defined in `data_generation.py`.
 
-- [ ] **Step 1: Write the failing generator and schema tests**
+- [x] **Step 1: Write the failing generator and schema tests**
 
 Test that the signal generator produces exactly 288 rows, 36 unique timestamps, eight entities per timestamp, and the required columns. Test that the journey generator produces exactly 600 distinct IDs, each with `arrival` first, `exit` last, and four through six total events.
 
-- [ ] **Step 2: Run the tests to verify they fail**
+- [x] **Step 2: Run the tests to verify they fail**
 
 Run: `python -m pytest tests/test_data_generation.py -v`
 
 Expected: FAIL because the generator functions do not exist.
 
-- [ ] **Step 3: Implement seeded signal and journey generation**
+- [x] **Step 3: Implement seeded signal and journey generation**
 
 Use one fixed integer seed. Generate normal variation plus the 9:00–9:45 arrival surge, 2:00–3:15 Catalyst Theater friction, and late-afternoon observed improvement. Ensure the Catalyst snapshot at 2:30 has three consecutive qualifying capacity/queue windows and qualifying app-error/support values. Generate journey records whose ordered flows reflect increased Catalyst attendance and support events during the 2:00–3:15 interval.
 
-- [ ] **Step 4: Write the CSVs and verify deterministic output**
+- [x] **Step 4: Write the CSVs and verify deterministic output**
 
 Run: `python scripts/generate_data.py` followed by `python -m pytest tests/test_data_generation.py -v`.
 
 Expected: both CSVs are written under `data/`; all tests pass; rerunning with the same seed produces the same files.
 
-- [ ] **Step 5: Document and commit the data contract**
+- [x] **Step 5: Document and commit the data contract**
 
 Add the two-file data explanation and simulated-data disclosure to `README.md`.
 

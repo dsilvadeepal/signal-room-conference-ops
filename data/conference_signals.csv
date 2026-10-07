@@ -1,0 +1,289 @@
+app_error_rate_pct,attendance,attendee_pulse_score,avg_queue_minutes,capacity,check_ins,entity_name,entity_type,people_affected,pulse_response_count,session_title,session_track,support_case_count,timestamp
+1.8,792,3.3,16.1,900,36,Arrival Hub,zone,95,15,,Operations,7,2026-10-07 09:00:00
+0.5,171,3.8,3.1,420,21,Catalyst Theater,session,20,25,Build With Confidence,Platform,2,2026-10-07 09:00:00
+0.5,115,4.2,4.2,260,9,Circuit Lab,session,16,8,Applied AI Patterns,AI,2,2026-10-07 09:00:00
+1.6,313,4.5,5.9,500,24,Community Commons,zone,37,28,,Community,1,2026-10-07 09:00:00
+0.5,409,4.0,1.1,700,22,Momentum Hall,session,49,25,Opening the Next Era,Keynote,2,2026-10-07 09:00:00
+0.6,112,4.1,1.8,180,19,Studio Two,session,13,18,Designing Trusted Products,Design,0,2026-10-07 09:00:00
+1.2,103,4.1,1.8,160,17,Support Bar,zone,16,28,,Support,2,2026-10-07 09:00:00
+0.7,61,4.1,2.9,150,9,Workshop Loft,session,8,22,Analytics in Practice,Data,1,2026-10-07 09:00:00
+1.5,792,3.4,13.8,900,38,Arrival Hub,zone,95,20,,Operations,6,2026-10-07 09:15:00
+1.4,252,4.1,2.1,420,18,Catalyst Theater,session,30,9,Build With Confidence,Platform,0,2026-10-07 09:15:00
+1.7,165,3.9,3.0,260,26,Circuit Lab,session,19,18,Applied AI Patterns,AI,2,2026-10-07 09:15:00
+1.0,285,4.0,3.3,500,38,Community Commons,zone,34,11,,Community,0,2026-10-07 09:15:00
+0.5,281,4.2,4.2,700,26,Momentum Hall,session,33,28,Opening the Next Era,Keynote,1,2026-10-07 09:15:00
+1.2,80,4.5,3.5,180,6,Studio Two,session,9,15,Designing Trusted Products,Design,0,2026-10-07 09:15:00
+1.2,95,4.0,3.7,160,7,Support Bar,zone,11,13,,Support,0,2026-10-07 09:15:00
+0.8,92,4.4,3.7,150,8,Workshop Loft,session,16,15,Analytics in Practice,Data,2,2026-10-07 09:15:00
+2.1,792,3.5,15.6,900,115,Arrival Hub,zone,95,30,,Operations,8,2026-10-07 09:30:00
+1.2,282,4.0,5.4,420,19,Catalyst Theater,session,33,19,Build With Confidence,Platform,2,2026-10-07 09:30:00
+1.0,162,4.4,3.7,260,20,Circuit Lab,session,19,23,Applied AI Patterns,AI,0,2026-10-07 09:30:00
+1.2,222,4.6,2.6,500,36,Community Commons,zone,26,22,,Community,1,2026-10-07 09:30:00
+0.5,367,4.5,5.8,700,53,Momentum Hall,session,44,24,Opening the Next Era,Keynote,2,2026-10-07 09:30:00
+1.5,69,4.5,5.6,180,5,Studio Two,session,8,15,Designing Trusted Products,Design,1,2026-10-07 09:30:00
+1.1,66,4.1,2.1,160,8,Support Bar,zone,7,8,,Support,0,2026-10-07 09:30:00
+0.9,99,3.9,5.7,150,17,Workshop Loft,session,11,25,Analytics in Practice,Data,0,2026-10-07 09:30:00
+2.1,792,3.5,13.5,900,125,Arrival Hub,zone,95,13,,Operations,5,2026-10-07 09:45:00
+1.3,197,4.2,3.4,420,23,Catalyst Theater,session,23,15,Build With Confidence,Platform,2,2026-10-07 09:45:00
+0.3,164,4.0,5.0,260,14,Circuit Lab,session,19,21,Applied AI Patterns,AI,1,2026-10-07 09:45:00
+1.6,255,4.5,3.4,500,23,Community Commons,zone,30,20,,Community,0,2026-10-07 09:45:00
+1.6,281,4.0,4.2,700,14,Momentum Hall,session,33,15,Opening the Next Era,Keynote,1,2026-10-07 09:45:00
+1.8,95,4.3,4.6,180,4,Studio Two,session,11,18,Designing Trusted Products,Design,0,2026-10-07 09:45:00
+0.8,74,4.2,4.9,160,13,Support Bar,zone,16,25,,Support,2,2026-10-07 09:45:00
+1.0,95,4.0,1.5,150,9,Workshop Loft,session,11,16,Analytics in Practice,Data,0,2026-10-07 09:45:00
+0.2,428,4.4,2.6,900,54,Arrival Hub,zone,51,26,,Operations,1,2026-10-07 10:00:00
+0.9,167,3.8,2.6,420,10,Catalyst Theater,session,20,24,Build With Confidence,Platform,2,2026-10-07 10:00:00
+1.2,105,4.3,1.9,260,10,Circuit Lab,session,12,26,Applied AI Patterns,AI,0,2026-10-07 10:00:00
+0.6,349,4.0,1.4,500,56,Community Commons,zone,41,15,,Community,1,2026-10-07 10:00:00
+0.5,414,4.0,3.4,700,50,Momentum Hall,session,49,25,Opening the Next Era,Keynote,0,2026-10-07 10:00:00
+0.8,82,4.3,4.0,180,9,Studio Two,session,16,18,Designing Trusted Products,Design,2,2026-10-07 10:00:00
+1.3,79,4.5,1.8,160,14,Support Bar,zone,16,28,,Support,2,2026-10-07 10:00:00
+0.5,101,4.4,2.0,150,5,Workshop Loft,session,12,28,Analytics in Practice,Data,1,2026-10-07 10:00:00
+1.1,602,4.5,3.7,900,60,Arrival Hub,zone,72,9,,Operations,0,2026-10-07 10:15:00
+0.4,195,4.4,5.4,420,24,Catalyst Theater,session,23,30,Build With Confidence,Platform,1,2026-10-07 10:15:00
+1.0,127,4.5,4.4,260,21,Circuit Lab,session,15,9,Applied AI Patterns,AI,1,2026-10-07 10:15:00
+1.6,239,4.4,5.5,500,16,Community Commons,zone,28,15,,Community,1,2026-10-07 10:15:00
+1.7,384,4.2,4.3,700,65,Momentum Hall,session,46,12,Opening the Next Era,Keynote,0,2026-10-07 10:15:00
+0.1,73,4.0,3.1,180,9,Studio Two,session,8,16,Designing Trusted Products,Design,0,2026-10-07 10:15:00
+1.6,94,4.2,2.8,160,13,Support Bar,zone,16,15,,Support,2,2026-10-07 10:15:00
+1.1,64,4.4,3.2,150,3,Workshop Loft,session,7,30,Analytics in Practice,Data,0,2026-10-07 10:15:00
+1.8,594,4.3,2.3,900,32,Arrival Hub,zone,71,21,,Operations,0,2026-10-07 10:30:00
+1.3,264,4.3,3.1,420,20,Catalyst Theater,session,31,30,Build With Confidence,Platform,0,2026-10-07 10:30:00
+0.5,107,4.5,5.4,260,9,Circuit Lab,session,12,15,Applied AI Patterns,AI,1,2026-10-07 10:30:00
+1.8,245,4.1,4.9,500,23,Community Commons,zone,29,26,,Community,0,2026-10-07 10:30:00
+1.6,459,4.4,5.9,700,29,Momentum Hall,session,55,18,Opening the Next Era,Keynote,0,2026-10-07 10:30:00
+0.6,81,4.1,4.3,180,14,Studio Two,session,9,16,Designing Trusted Products,Design,0,2026-10-07 10:30:00
+1.0,70,4.1,1.2,160,9,Support Bar,zone,16,29,,Support,2,2026-10-07 10:30:00
+1.5,73,4.3,3.5,150,12,Workshop Loft,session,8,11,Analytics in Practice,Data,1,2026-10-07 10:30:00
+0.3,423,4.3,4.3,900,56,Arrival Hub,zone,50,15,,Operations,0,2026-10-07 10:45:00
+0.8,256,4.0,2.5,420,35,Catalyst Theater,session,30,25,Build With Confidence,Platform,1,2026-10-07 10:45:00
+1.3,109,4.6,3.1,260,13,Circuit Lab,session,13,17,Applied AI Patterns,AI,0,2026-10-07 10:45:00
+1.8,319,3.8,1.7,500,50,Community Commons,zone,38,10,,Community,2,2026-10-07 10:45:00
+1.7,310,4.6,3.2,700,26,Momentum Hall,session,37,11,Opening the Next Era,Keynote,2,2026-10-07 10:45:00
+0.5,91,4.0,5.2,180,11,Studio Two,session,16,18,Designing Trusted Products,Design,2,2026-10-07 10:45:00
+1.3,84,4.3,5.4,160,9,Support Bar,zone,10,15,,Support,1,2026-10-07 10:45:00
+0.9,79,4.0,3.2,150,5,Workshop Loft,session,16,10,Analytics in Practice,Data,2,2026-10-07 10:45:00
+1.3,481,4.2,2.2,900,37,Arrival Hub,zone,57,18,,Operations,0,2026-10-07 11:00:00
+0.2,183,4.2,5.8,420,30,Catalyst Theater,session,21,11,Build With Confidence,Platform,0,2026-10-07 11:00:00
+1.8,136,4.3,5.0,260,11,Circuit Lab,session,16,22,Applied AI Patterns,AI,2,2026-10-07 11:00:00
+0.8,332,3.9,1.4,500,46,Community Commons,zone,39,10,,Community,0,2026-10-07 11:00:00
+1.6,299,4.5,4.4,700,44,Momentum Hall,session,35,15,Opening the Next Era,Keynote,0,2026-10-07 11:00:00
+1.5,103,4.2,4.6,180,10,Studio Two,session,16,13,Designing Trusted Products,Design,2,2026-10-07 11:00:00
+0.2,82,4.2,2.7,160,7,Support Bar,zone,9,26,,Support,1,2026-10-07 11:00:00
+0.5,92,4.0,3.4,150,7,Workshop Loft,session,16,24,Analytics in Practice,Data,2,2026-10-07 11:00:00
+0.9,394,4.1,2.3,900,57,Arrival Hub,zone,47,20,,Operations,1,2026-10-07 11:15:00
+1.5,199,4.5,2.9,420,28,Catalyst Theater,session,23,25,Build With Confidence,Platform,2,2026-10-07 11:15:00
+0.6,165,4.2,5.5,260,7,Circuit Lab,session,19,18,Applied AI Patterns,AI,1,2026-10-07 11:15:00
+1.5,234,4.1,5.8,500,9,Community Commons,zone,28,25,,Community,1,2026-10-07 11:15:00
+1.1,477,4.5,1.1,700,19,Momentum Hall,session,57,19,Opening the Next Era,Keynote,1,2026-10-07 11:15:00
+1.5,106,4.4,5.0,180,18,Studio Two,session,12,25,Designing Trusted Products,Design,0,2026-10-07 11:15:00
+0.2,63,4.0,5.8,160,2,Support Bar,zone,16,8,,Support,2,2026-10-07 11:15:00
+0.1,58,4.3,3.0,150,5,Workshop Loft,session,16,22,Analytics in Practice,Data,2,2026-10-07 11:15:00
+0.7,567,4.1,2.7,900,74,Arrival Hub,zone,68,8,,Operations,2,2026-10-07 11:30:00
+1.4,235,4.4,2.1,420,29,Catalyst Theater,session,28,30,Build With Confidence,Platform,0,2026-10-07 11:30:00
+0.3,108,4.6,5.1,260,18,Circuit Lab,session,12,26,Applied AI Patterns,AI,0,2026-10-07 11:30:00
+1.7,325,3.9,5.1,500,53,Community Commons,zone,39,22,,Community,2,2026-10-07 11:30:00
+0.4,478,3.8,2.0,700,50,Momentum Hall,session,57,11,Opening the Next Era,Keynote,0,2026-10-07 11:30:00
+1.3,107,4.1,5.8,180,13,Studio Two,session,12,28,Designing Trusted Products,Design,0,2026-10-07 11:30:00
+1.7,97,4.4,3.2,160,12,Support Bar,zone,11,25,,Support,1,2026-10-07 11:30:00
+1.3,68,4.0,4.5,150,10,Workshop Loft,session,8,26,Analytics in Practice,Data,0,2026-10-07 11:30:00
+0.6,368,4.4,2.1,900,33,Arrival Hub,zone,44,25,,Operations,2,2026-10-07 11:45:00
+1.1,197,4.4,3.3,420,18,Catalyst Theater,session,23,8,Build With Confidence,Platform,2,2026-10-07 11:45:00
+0.7,139,4.2,2.6,260,12,Circuit Lab,session,16,27,Applied AI Patterns,AI,1,2026-10-07 11:45:00
+0.7,274,4.4,3.1,500,28,Community Commons,zone,32,17,,Community,2,2026-10-07 11:45:00
+1.1,439,4.5,3.3,700,69,Momentum Hall,session,52,10,Opening the Next Era,Keynote,1,2026-10-07 11:45:00
+1.7,108,3.8,2.4,180,7,Studio Two,session,12,21,Designing Trusted Products,Design,0,2026-10-07 11:45:00
+0.3,73,4.0,1.6,160,12,Support Bar,zone,16,30,,Support,2,2026-10-07 11:45:00
+1.2,80,4.4,4.8,150,8,Workshop Loft,session,9,8,Analytics in Practice,Data,1,2026-10-07 11:45:00
+1.7,539,4.4,1.8,900,96,Arrival Hub,zone,64,11,,Operations,0,2026-10-07 12:00:00
+0.6,271,4.1,2.5,420,31,Catalyst Theater,session,32,16,Build With Confidence,Platform,2,2026-10-07 12:00:00
+1.7,102,4.0,1.3,260,16,Circuit Lab,session,16,23,Applied AI Patterns,AI,2,2026-10-07 12:00:00
+1.2,279,4.3,3.1,500,26,Community Commons,zone,33,22,,Community,2,2026-10-07 12:00:00
+1.3,307,4.2,2.1,700,37,Momentum Hall,session,36,11,Opening the Next Era,Keynote,2,2026-10-07 12:00:00
+0.9,74,4.0,1.1,180,4,Studio Two,session,8,9,Designing Trusted Products,Design,1,2026-10-07 12:00:00
+1.1,76,4.1,3.9,160,9,Support Bar,zone,9,11,,Support,0,2026-10-07 12:00:00
+0.2,69,3.9,5.3,150,3,Workshop Loft,session,8,28,Analytics in Practice,Data,1,2026-10-07 12:00:00
+0.8,468,4.0,3.3,900,51,Arrival Hub,zone,56,23,,Operations,1,2026-10-07 12:15:00
+1.1,169,4.2,1.0,420,7,Catalyst Theater,session,20,17,Build With Confidence,Platform,1,2026-10-07 12:15:00
+1.3,157,4.2,4.5,260,23,Circuit Lab,session,18,28,Applied AI Patterns,AI,1,2026-10-07 12:15:00
+1.3,260,4.5,4.0,500,19,Community Commons,zone,31,10,,Community,2,2026-10-07 12:15:00
+1.2,478,4.0,2.0,700,35,Momentum Hall,session,57,25,Opening the Next Era,Keynote,0,2026-10-07 12:15:00
+0.3,102,4.0,5.0,180,13,Studio Two,session,12,16,Designing Trusted Products,Design,0,2026-10-07 12:15:00
+1.1,72,4.5,4.4,160,12,Support Bar,zone,8,29,,Support,0,2026-10-07 12:15:00
+0.6,96,3.9,1.4,150,14,Workshop Loft,session,16,17,Analytics in Practice,Data,2,2026-10-07 12:15:00
+1.4,461,4.1,1.9,900,46,Arrival Hub,zone,55,9,,Operations,2,2026-10-07 12:30:00
+0.9,183,4.3,3.9,420,19,Catalyst Theater,session,21,21,Build With Confidence,Platform,0,2026-10-07 12:30:00
+0.7,126,4.5,4.4,260,13,Circuit Lab,session,16,29,Applied AI Patterns,AI,2,2026-10-07 12:30:00
+0.8,222,4.5,3.7,500,23,Community Commons,zone,26,8,,Community,2,2026-10-07 12:30:00
+0.4,449,4.4,3.9,700,58,Momentum Hall,session,53,16,Opening the Next Era,Keynote,2,2026-10-07 12:30:00
+0.9,122,4.2,5.1,180,9,Studio Two,session,14,11,Designing Trusted Products,Design,1,2026-10-07 12:30:00
+0.4,110,4.0,4.0,160,4,Support Bar,zone,16,21,,Support,2,2026-10-07 12:30:00
+1.8,103,4.2,3.0,150,16,Workshop Loft,session,16,22,Analytics in Practice,Data,2,2026-10-07 12:30:00
+1.0,497,4.2,2.7,900,84,Arrival Hub,zone,59,14,,Operations,1,2026-10-07 12:45:00
+0.6,226,4.2,4.6,420,40,Catalyst Theater,session,27,15,Build With Confidence,Platform,1,2026-10-07 12:45:00
+1.1,136,4.0,1.7,260,22,Circuit Lab,session,16,10,Applied AI Patterns,AI,2,2026-10-07 12:45:00
+1.6,346,4.1,2.2,500,15,Community Commons,zone,41,23,,Community,1,2026-10-07 12:45:00
+0.9,286,4.5,6.0,700,37,Momentum Hall,session,34,12,Opening the Next Era,Keynote,0,2026-10-07 12:45:00
+1.7,84,4.1,5.0,180,6,Studio Two,session,16,8,Designing Trusted Products,Design,2,2026-10-07 12:45:00
+1.2,96,4.1,5.1,160,17,Support Bar,zone,16,23,,Support,2,2026-10-07 12:45:00
+1.8,70,4.3,2.5,150,11,Workshop Loft,session,8,22,Analytics in Practice,Data,1,2026-10-07 12:45:00
+1.6,466,4.3,1.5,900,29,Arrival Hub,zone,55,17,,Operations,1,2026-10-07 13:00:00
+0.3,173,3.8,5.6,420,30,Catalyst Theater,session,20,10,Build With Confidence,Platform,2,2026-10-07 13:00:00
+1.3,137,4.1,5.8,260,7,Circuit Lab,session,16,18,Applied AI Patterns,AI,2,2026-10-07 13:00:00
+0.6,334,4.4,1.2,500,33,Community Commons,zone,40,15,,Community,1,2026-10-07 13:00:00
+0.7,482,4.6,1.6,700,78,Momentum Hall,session,57,22,Opening the Next Era,Keynote,0,2026-10-07 13:00:00
+0.6,117,4.1,5.3,180,19,Studio Two,session,16,23,Designing Trusted Products,Design,2,2026-10-07 13:00:00
+0.4,87,4.4,3.8,160,10,Support Bar,zone,10,20,,Support,0,2026-10-07 13:00:00
+1.2,98,3.9,1.2,150,17,Workshop Loft,session,11,10,Analytics in Practice,Data,1,2026-10-07 13:00:00
+0.2,504,4.4,4.4,900,72,Arrival Hub,zone,60,17,,Operations,2,2026-10-07 13:15:00
+1.6,193,4.4,1.0,420,22,Catalyst Theater,session,23,10,Build With Confidence,Platform,2,2026-10-07 13:15:00
+1.2,135,4.3,2.7,260,18,Circuit Lab,session,16,22,Applied AI Patterns,AI,1,2026-10-07 13:15:00
+0.5,314,4.4,2.2,500,39,Community Commons,zone,37,29,,Community,0,2026-10-07 13:15:00
+0.3,404,4.5,2.2,700,52,Momentum Hall,session,48,22,Opening the Next Era,Keynote,1,2026-10-07 13:15:00
+0.9,117,4.1,2.0,180,10,Studio Two,session,14,19,Designing Trusted Products,Design,0,2026-10-07 13:15:00
+0.3,99,4.3,4.8,160,16,Support Bar,zone,11,28,,Support,0,2026-10-07 13:15:00
+1.8,84,4.0,6.0,150,8,Workshop Loft,session,16,8,Analytics in Practice,Data,2,2026-10-07 13:15:00
+0.5,377,4.4,2.8,900,58,Arrival Hub,zone,45,19,,Operations,1,2026-10-07 13:30:00
+1.4,203,4.0,3.1,420,23,Catalyst Theater,session,24,16,Build With Confidence,Platform,1,2026-10-07 13:30:00
+0.9,167,4.5,2.3,260,24,Circuit Lab,session,20,18,Applied AI Patterns,AI,1,2026-10-07 13:30:00
+1.6,207,3.8,2.2,500,17,Community Commons,zone,24,27,,Community,2,2026-10-07 13:30:00
+0.7,274,3.8,4.9,700,14,Momentum Hall,session,32,17,Opening the Next Era,Keynote,0,2026-10-07 13:30:00
+1.4,114,3.9,3.3,180,18,Studio Two,session,13,29,Designing Trusted Products,Design,0,2026-10-07 13:30:00
+1.6,72,4.5,1.3,160,9,Support Bar,zone,8,11,,Support,1,2026-10-07 13:30:00
+0.7,104,4.4,5.8,150,4,Workshop Loft,session,12,25,Analytics in Practice,Data,1,2026-10-07 13:30:00
+1.4,526,3.8,4.0,900,93,Arrival Hub,zone,63,26,,Operations,0,2026-10-07 13:45:00
+1.4,177,4.3,3.3,420,17,Catalyst Theater,session,21,12,Build With Confidence,Platform,2,2026-10-07 13:45:00
+1.1,172,4.5,4.3,260,7,Circuit Lab,session,20,19,Applied AI Patterns,AI,1,2026-10-07 13:45:00
+1.1,222,4.2,5.1,500,19,Community Commons,zone,26,12,,Community,0,2026-10-07 13:45:00
+0.9,297,4.0,5.7,700,21,Momentum Hall,session,35,25,Opening the Next Era,Keynote,0,2026-10-07 13:45:00
+0.7,80,4.0,3.2,180,7,Studio Two,session,16,28,Designing Trusted Products,Design,2,2026-10-07 13:45:00
+1.8,101,4.0,4.0,160,11,Support Bar,zone,12,13,,Support,0,2026-10-07 13:45:00
+0.3,74,4.0,3.0,150,3,Workshop Loft,session,8,14,Analytics in Practice,Data,1,2026-10-07 13:45:00
+1.0,499,4.6,2.6,900,55,Arrival Hub,zone,59,21,,Operations,1,2026-10-07 14:00:00
+6.5,383,2.7,15.0,420,42,Catalyst Theater,session,56,27,Build With Confidence,Platform,7,2026-10-07 14:00:00
+1.0,102,4.5,4.9,260,13,Circuit Lab,session,12,8,Applied AI Patterns,AI,1,2026-10-07 14:00:00
+1.2,205,4.5,4.5,500,28,Community Commons,zone,24,14,,Community,2,2026-10-07 14:00:00
+0.7,290,3.9,5.3,700,35,Momentum Hall,session,34,8,Opening the Next Era,Keynote,0,2026-10-07 14:00:00
+1.3,71,4.1,3.4,180,9,Studio Two,session,8,22,Designing Trusted Products,Design,1,2026-10-07 14:00:00
+1.5,82,4.1,5.4,160,8,Support Bar,zone,9,11,,Support,1,2026-10-07 14:00:00
+0.2,60,4.3,1.4,150,7,Workshop Loft,session,8,26,Analytics in Practice,Data,1,2026-10-07 14:00:00
+1.2,622,4.3,5.1,900,77,Arrival Hub,zone,74,29,,Operations,0,2026-10-07 14:15:00
+6.4,402,2.8,15.6,420,53,Catalyst Theater,session,48,21,Build With Confidence,Platform,6,2026-10-07 14:15:00
+1.6,128,4.4,4.3,260,6,Circuit Lab,session,16,17,Applied AI Patterns,AI,2,2026-10-07 14:15:00
+1.3,322,3.9,2.3,500,54,Community Commons,zone,38,19,,Community,1,2026-10-07 14:15:00
+1.7,336,4.0,2.6,700,56,Momentum Hall,session,40,10,Opening the Next Era,Keynote,2,2026-10-07 14:15:00
+0.5,102,4.3,2.8,180,10,Studio Two,session,16,11,Designing Trusted Products,Design,2,2026-10-07 14:15:00
+0.8,61,4.3,5.3,160,8,Support Bar,zone,7,8,,Support,0,2026-10-07 14:15:00
+0.6,73,3.9,3.8,150,11,Workshop Loft,session,8,25,Analytics in Practice,Data,0,2026-10-07 14:15:00
+1.3,557,4.1,1.9,900,65,Arrival Hub,zone,66,29,,Operations,2,2026-10-07 14:30:00
+6.2,401,2.5,12.8,420,43,Catalyst Theater,session,56,22,Build With Confidence,Platform,7,2026-10-07 14:30:00
+0.7,133,4.2,2.1,260,10,Circuit Lab,session,15,29,Applied AI Patterns,AI,0,2026-10-07 14:30:00
+0.2,318,4.5,1.4,500,33,Community Commons,zone,38,10,,Community,0,2026-10-07 14:30:00
+0.9,286,4.1,3.7,700,26,Momentum Hall,session,34,18,Opening the Next Era,Keynote,0,2026-10-07 14:30:00
+0.5,102,4.0,3.6,180,4,Studio Two,session,16,14,Designing Trusted Products,Design,2,2026-10-07 14:30:00
+1.3,104,4.3,3.9,160,8,Support Bar,zone,12,20,,Support,1,2026-10-07 14:30:00
+0.5,71,3.9,2.1,150,4,Workshop Loft,session,8,23,Analytics in Practice,Data,1,2026-10-07 14:30:00
+1.8,538,4.3,5.4,900,86,Arrival Hub,zone,64,28,,Operations,1,2026-10-07 14:45:00
+5.9,392,2.6,14.2,420,19,Catalyst Theater,session,47,28,Build With Confidence,Platform,5,2026-10-07 14:45:00
+0.7,108,4.5,3.5,260,18,Circuit Lab,session,16,28,Applied AI Patterns,AI,2,2026-10-07 14:45:00
+1.2,240,4.2,3.2,500,29,Community Commons,zone,28,19,,Community,1,2026-10-07 14:45:00
+1.2,270,4.4,2.6,700,45,Momentum Hall,session,32,10,Opening the Next Era,Keynote,2,2026-10-07 14:45:00
+0.4,115,3.9,2.2,180,7,Studio Two,session,16,28,Designing Trusted Products,Design,2,2026-10-07 14:45:00
+0.2,86,4.2,2.6,160,4,Support Bar,zone,10,10,,Support,1,2026-10-07 14:45:00
+0.9,60,4.3,5.8,150,8,Workshop Loft,session,16,22,Analytics in Practice,Data,2,2026-10-07 14:45:00
+1.6,550,4.5,4.3,900,28,Arrival Hub,zone,66,29,,Operations,1,2026-10-07 15:00:00
+7.2,386,2.5,12.8,420,68,Catalyst Theater,session,48,10,Build With Confidence,Platform,6,2026-10-07 15:00:00
+0.8,140,4.0,1.9,260,15,Circuit Lab,session,16,27,Applied AI Patterns,AI,1,2026-10-07 15:00:00
+1.3,212,4.6,2.7,500,12,Community Commons,zone,25,30,,Community,1,2026-10-07 15:00:00
+1.0,403,4.2,3.5,700,66,Momentum Hall,session,48,22,Opening the Next Era,Keynote,2,2026-10-07 15:00:00
+0.8,77,4.0,2.9,180,10,Studio Two,session,9,9,Designing Trusted Products,Design,1,2026-10-07 15:00:00
+1.4,108,4.1,2.5,160,14,Support Bar,zone,12,29,,Support,0,2026-10-07 15:00:00
+0.3,94,3.9,4.2,150,8,Workshop Loft,session,16,16,Analytics in Practice,Data,2,2026-10-07 15:00:00
+0.7,625,4.0,3.3,900,61,Arrival Hub,zone,75,13,,Operations,2,2026-10-07 15:15:00
+6.3,386,3.0,14.1,420,51,Catalyst Theater,session,46,27,Build With Confidence,Platform,4,2026-10-07 15:15:00
+1.5,109,3.9,2.9,260,16,Circuit Lab,session,16,13,Applied AI Patterns,AI,2,2026-10-07 15:15:00
+0.5,320,3.9,5.0,500,34,Community Commons,zone,38,19,,Community,2,2026-10-07 15:15:00
+1.0,470,4.3,1.5,700,42,Momentum Hall,session,56,13,Opening the Next Era,Keynote,0,2026-10-07 15:15:00
+1.3,109,4.1,1.2,180,13,Studio Two,session,13,22,Designing Trusted Products,Design,1,2026-10-07 15:15:00
+1.5,89,4.5,1.5,160,4,Support Bar,zone,10,13,,Support,1,2026-10-07 15:15:00
+1.4,68,4.6,2.2,150,6,Workshop Loft,session,8,26,Analytics in Practice,Data,0,2026-10-07 15:15:00
+0.6,493,4.0,1.6,900,36,Arrival Hub,zone,59,28,,Operations,0,2026-10-07 15:30:00
+0.7,284,4.1,3.1,420,50,Catalyst Theater,session,34,19,Build With Confidence,Platform,1,2026-10-07 15:30:00
+1.3,117,3.9,2.6,260,17,Circuit Lab,session,14,12,Applied AI Patterns,AI,1,2026-10-07 15:30:00
+1.6,317,3.9,3.3,500,36,Community Commons,zone,38,28,,Community,2,2026-10-07 15:30:00
+0.8,327,3.9,5.5,700,50,Momentum Hall,session,39,19,Opening the Next Era,Keynote,0,2026-10-07 15:30:00
+1.5,70,4.2,5.6,180,7,Studio Two,session,16,27,Designing Trusted Products,Design,2,2026-10-07 15:30:00
+0.8,87,3.9,2.2,160,7,Support Bar,zone,16,26,,Support,2,2026-10-07 15:30:00
+1.5,57,4.0,1.4,150,9,Workshop Loft,session,16,27,Analytics in Practice,Data,2,2026-10-07 15:30:00
+0.9,575,4.4,1.3,900,39,Arrival Hub,zone,69,14,,Operations,1,2026-10-07 15:45:00
+0.8,227,4.2,5.9,420,10,Catalyst Theater,session,27,20,Build With Confidence,Platform,1,2026-10-07 15:45:00
+1.4,180,3.8,2.3,260,13,Circuit Lab,session,21,29,Applied AI Patterns,AI,1,2026-10-07 15:45:00
+0.8,331,4.0,2.6,500,35,Community Commons,zone,39,9,,Community,2,2026-10-07 15:45:00
+1.8,359,3.9,4.3,700,62,Momentum Hall,session,43,25,Opening the Next Era,Keynote,0,2026-10-07 15:45:00
+0.7,104,4.4,4.9,180,9,Studio Two,session,12,18,Designing Trusted Products,Design,0,2026-10-07 15:45:00
+1.4,99,4.1,2.0,160,8,Support Bar,zone,16,11,,Support,2,2026-10-07 15:45:00
+0.9,96,4.4,1.9,150,10,Workshop Loft,session,16,13,Analytics in Practice,Data,2,2026-10-07 15:45:00
+0.2,383,4.4,4.0,900,27,Arrival Hub,zone,45,28,,Operations,0,2026-10-07 16:00:00
+2.1,324,3.9,4.2,420,27,Catalyst Theater,session,38,10,Build With Confidence,Platform,2,2026-10-07 16:00:00
+1.3,126,4.2,2.5,260,17,Circuit Lab,session,15,19,Applied AI Patterns,AI,0,2026-10-07 16:00:00
+1.1,248,4.3,2.9,500,25,Community Commons,zone,29,19,,Community,2,2026-10-07 16:00:00
+0.8,445,4.1,3.2,700,38,Momentum Hall,session,53,13,Opening the Next Era,Keynote,1,2026-10-07 16:00:00
+1.1,94,4.5,4.6,180,7,Studio Two,session,11,9,Designing Trusted Products,Design,1,2026-10-07 16:00:00
+1.0,79,4.3,4.8,160,6,Support Bar,zone,9,16,,Support,1,2026-10-07 16:00:00
+1.5,60,4.1,4.2,150,3,Workshop Loft,session,16,8,Analytics in Practice,Data,2,2026-10-07 16:00:00
+0.7,569,4.2,1.1,900,33,Arrival Hub,zone,68,10,,Operations,2,2026-10-07 16:15:00
+1.2,323,3.8,6.5,420,33,Catalyst Theater,session,38,30,Build With Confidence,Platform,1,2026-10-07 16:15:00
+1.5,135,4.3,1.4,260,18,Circuit Lab,session,16,30,Applied AI Patterns,AI,1,2026-10-07 16:15:00
+0.9,200,4.4,3.0,500,29,Community Commons,zone,24,26,,Community,1,2026-10-07 16:15:00
+0.9,321,4.4,1.6,700,53,Momentum Hall,session,38,11,Opening the Next Era,Keynote,1,2026-10-07 16:15:00
+1.5,72,4.5,3.7,180,10,Studio Two,session,16,30,Designing Trusted Products,Design,2,2026-10-07 16:15:00
+0.9,64,4.3,5.9,160,7,Support Bar,zone,16,12,,Support,2,2026-10-07 16:15:00
+0.3,87,4.2,5.0,150,13,Workshop Loft,session,10,15,Analytics in Practice,Data,0,2026-10-07 16:15:00
+0.9,562,4.3,3.1,900,65,Arrival Hub,zone,67,28,,Operations,2,2026-10-07 16:30:00
+1.4,303,3.9,6.4,420,22,Catalyst Theater,session,36,28,Build With Confidence,Platform,1,2026-10-07 16:30:00
+1.1,178,4.3,2.4,260,19,Circuit Lab,session,21,13,Applied AI Patterns,AI,0,2026-10-07 16:30:00
+1.3,343,4.4,3.4,500,35,Community Commons,zone,41,30,,Community,1,2026-10-07 16:30:00
+0.4,462,4.3,4.9,700,46,Momentum Hall,session,55,9,Opening the Next Era,Keynote,0,2026-10-07 16:30:00
+1.2,102,3.9,3.9,180,8,Studio Two,session,16,26,Designing Trusted Products,Design,2,2026-10-07 16:30:00
+0.4,63,4.2,3.2,160,3,Support Bar,zone,16,30,,Support,2,2026-10-07 16:30:00
+1.7,58,3.9,5.3,150,4,Workshop Loft,session,16,14,Analytics in Practice,Data,2,2026-10-07 16:30:00
+0.5,344,3.9,1.5,900,50,Arrival Hub,zone,41,19,,Operations,1,2026-10-07 16:45:00
+1.5,296,4.0,6.4,420,45,Catalyst Theater,session,35,26,Build With Confidence,Platform,1,2026-10-07 16:45:00
+1.8,158,3.9,1.9,260,17,Circuit Lab,session,18,17,Applied AI Patterns,AI,1,2026-10-07 16:45:00
+0.7,197,4.2,1.3,500,9,Community Commons,zone,23,24,,Community,1,2026-10-07 16:45:00
+0.8,337,4.1,5.9,700,37,Momentum Hall,session,40,11,Opening the Next Era,Keynote,1,2026-10-07 16:45:00
+0.9,97,4.1,1.5,180,6,Studio Two,session,11,19,Designing Trusted Products,Design,0,2026-10-07 16:45:00
+1.2,83,4.5,3.7,160,4,Support Bar,zone,16,11,,Support,2,2026-10-07 16:45:00
+1.5,59,4.3,2.4,150,6,Workshop Loft,session,16,25,Analytics in Practice,Data,2,2026-10-07 16:45:00
+1.2,510,4.3,1.9,900,30,Arrival Hub,zone,61,29,,Operations,1,2026-10-07 17:00:00
+1.2,315,4.1,4.4,420,19,Catalyst Theater,session,37,27,Build With Confidence,Platform,2,2026-10-07 17:00:00
+1.5,160,4.1,2.5,260,17,Circuit Lab,session,19,26,Applied AI Patterns,AI,2,2026-10-07 17:00:00
+0.4,228,4.4,3.9,500,19,Community Commons,zone,27,12,,Community,1,2026-10-07 17:00:00
+1.7,354,4.1,5.0,700,24,Momentum Hall,session,42,24,Opening the Next Era,Keynote,0,2026-10-07 17:00:00
+1.2,85,4.1,5.1,180,10,Studio Two,session,10,30,Designing Trusted Products,Design,1,2026-10-07 17:00:00
+1.1,81,4.2,2.0,160,13,Support Bar,zone,9,9,,Support,1,2026-10-07 17:00:00
+1.2,87,4.0,4.0,150,10,Workshop Loft,session,16,9,Analytics in Practice,Data,2,2026-10-07 17:00:00
+0.7,425,4.4,2.4,900,56,Arrival Hub,zone,51,23,,Operations,1,2026-10-07 17:15:00
+1.9,326,4.0,5.8,420,21,Catalyst Theater,session,39,15,Build With Confidence,Platform,2,2026-10-07 17:15:00
+1.8,122,4.6,2.5,260,16,Circuit Lab,session,14,30,Applied AI Patterns,AI,1,2026-10-07 17:15:00
+1.1,224,4.0,5.1,500,13,Community Commons,zone,26,27,,Community,1,2026-10-07 17:15:00
+1.8,424,4.2,3.6,700,48,Momentum Hall,session,50,18,Opening the Next Era,Keynote,1,2026-10-07 17:15:00
+1.7,109,4.1,2.6,180,8,Studio Two,session,16,11,Designing Trusted Products,Design,2,2026-10-07 17:15:00
+1.6,98,3.8,2.2,160,12,Support Bar,zone,11,9,,Support,0,2026-10-07 17:15:00
+0.8,84,4.5,3.7,150,14,Workshop Loft,session,10,12,Analytics in Practice,Data,1,2026-10-07 17:15:00
+1.8,372,4.0,5.9,900,42,Arrival Hub,zone,44,12,,Operations,2,2026-10-07 17:30:00
+1.4,314,4.1,4.5,420,52,Catalyst Theater,session,37,10,Build With Confidence,Platform,1,2026-10-07 17:30:00
+1.5,153,4.4,2.2,260,25,Circuit Lab,session,18,13,Applied AI Patterns,AI,0,2026-10-07 17:30:00
+0.3,326,4.0,3.3,500,46,Community Commons,zone,39,28,,Community,0,2026-10-07 17:30:00
+1.3,288,4.2,2.7,700,11,Momentum Hall,session,34,25,Opening the Next Era,Keynote,0,2026-10-07 17:30:00
+0.2,92,4.5,5.2,180,13,Studio Two,session,11,13,Designing Trusted Products,Design,1,2026-10-07 17:30:00
+1.4,73,4.4,1.9,160,9,Support Bar,zone,16,14,,Support,2,2026-10-07 17:30:00
+1.6,101,4.5,5.8,150,8,Workshop Loft,session,12,27,Analytics in Practice,Data,0,2026-10-07 17:30:00
+1.0,557,4.1,4.0,900,81,Arrival Hub,zone,66,29,,Operations,1,2026-10-07 17:45:00
+1.3,294,3.9,5.0,420,24,Catalyst Theater,session,35,26,Build With Confidence,Platform,2,2026-10-07 17:45:00
+0.2,99,4.4,4.3,260,10,Circuit Lab,session,11,13,Applied AI Patterns,AI,0,2026-10-07 17:45:00
+1.1,322,4.3,4.8,500,36,Community Commons,zone,38,24,,Community,0,2026-10-07 17:45:00
+1.5,305,4.5,5.3,700,26,Momentum Hall,session,36,20,Opening the Next Era,Keynote,2,2026-10-07 17:45:00
+1.3,91,4.5,3.5,180,12,Studio Two,session,10,28,Designing Trusted Products,Design,1,2026-10-07 17:45:00
+0.2,96,4.3,1.4,160,15,Support Bar,zone,16,14,,Support,2,2026-10-07 17:45:00
+0.5,100,4.3,2.5,150,10,Workshop Loft,session,12,22,Analytics in Practice,Data,0,2026-10-07 17:45:00
