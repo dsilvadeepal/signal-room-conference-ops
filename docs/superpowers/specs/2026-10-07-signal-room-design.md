@@ -47,8 +47,8 @@ The fictional Horizon Tech Summit runs for one day, 9:00 a.m. to 6:00 p.m. Each 
 | `attendance` | Aggregated attendees present |
 | `check_ins` | Aggregated arrivals or scans during the interval |
 | `avg_queue_minutes` | Average queue or wait time |
-| `attendee_pulse_score` | Aggregated satisfaction pulse from 1.0 to 5.0 |
-| `pulse_response_count` | Number of pulse responses in the interval |
+| `attendee_pulse_score` | Simulated average of 1–5 attendee micro-survey ratings for the entity and 15-minute interval: sum of submitted ratings divided by `pulse_response_count`; higher is better |
+| `pulse_response_count` | Number of simulated pulse responses in the interval; fewer than five responses is lower-confidence directional feedback, not a definitive experience measure |
 | `app_error_rate_pct` | Percentage of relevant app interactions reporting errors |
 | `support_case_count` | Number of support requests in the interval |
 | `people_affected` | Estimated people affected by the observed signal |
@@ -76,13 +76,17 @@ All other periods should vary plausibly but remain within normal operating range
 
 ## 4. Product experience
 
+### Dark-theme visual system
+
+Signal Room uses a calm **midnight operations** theme, not pure black or a high-noise command-center aesthetic. The page background is midnight navy `#0B1020`; cards and charts sit on raised navy surfaces `#141B2D` and `#1C2540`; borders use `#283554`; primary and secondary text use `#F4F7FB` and `#AAB6CF`. Cobalt `#6EA8FE` identifies selected or interactive controls, coral `#FF6B7A` identifies attention, amber `#F6C85F` identifies monitor, and mint `#5DDBB4` identifies healthy or improved conditions. Status words and icons remain visible alongside color, and Plotly charts must use the same dark surfaces, light axes, and muted gridlines.
+
 ### Live Event 360 tab
 
 The default tab answers: **Where should I look now?**
 
 - The opening state is 2:30 p.m. with no bubble selected. Catalyst Theater is visually prominent as the largest attention-colored bubble and has a visible priority label; this invites the user to investigate it without preselecting it. The 2:30 p.m. snapshot is the third consecutive 15-minute interval of the post-lunch-session signal, making its attention status and recommendation evidence-backed.
-- A 15-minute event-time replay slider from 9:00 a.m. through 5:45 p.m. controls the displayed snapshot; the final snapshot represents the 5:45–6:00 p.m. window. In a real deployment, it would expose only completed time windows; in this simulated demo, it also allows replay of the full day. Entity type and entity filters further narrow the view.
-- KPI cards for occupancy, average queue time, attendee pulse, app error rate, and support cases. Each KPI shows its unit.
+- A 15-minute event-time replay slider from 9:00 a.m. through 5:45 p.m. controls the displayed snapshot; the final snapshot represents the 5:45–6:00 p.m. window. In a real deployment, it would expose only completed time windows; in this simulated demo, it also allows replay of the full day. A plain-language `View` control optionally groups locations as Sessions or Shared services, while the primary `Locations` filter lets the user select recognizable names such as Catalyst Theater, Arrival Hub, or Support Bar.
+- KPI cards for occupancy, average queue time, attendee pulse, app error rate, and support cases. Each KPI shows its unit. The pulse KPI help text says “Average 1–5 attendee pulse rating; higher is better.” and the page states that lower response counts mean lower confidence.
 - A clickable Plotly bubble chart:
   - X-axis: attendee pulse score from 1.0 to 5.0.
   - Y-axis: operations pressure, shown as support cases per 100 attendees.

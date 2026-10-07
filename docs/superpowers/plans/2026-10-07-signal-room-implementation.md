@@ -17,6 +17,7 @@
 - `data/attendee_journeys.csv` contains 600 synthetic attendee IDs with an arrival, an exit, and two to four intermediate journey events each.
 - Open Live Event 360 at 2:30 p.m. with no selected bubble; make Catalyst Theater visually prominent but do not preselect it.
 - Calculate operations pressure as `support_case_count / attendance * 100`; zero attendance is `N/A` and excludes the entity from the bubble chart.
+- Define attendee pulse as the simulated average of 1–5 micro-survey ratings in a 15-minute entity interval; display “Average 1–5 attendee pulse rating; higher is better.” and state that lower response counts mean lower confidence.
 - Recommendations are informational only and display rule, inputs, owner, timing, confidence, limitation, and “Verify and dispatch; not automated.”
 - Label all app and documentation views as simulated data. State observed late-afternoon improvement without claiming causation.
 
@@ -32,9 +33,9 @@
 
 ## UX contract and wireframes
 
-**Product character:** Signal Room is a polished, light event-operations product. It should feel like a startup analytics tool for a busy event lead: spacious, calm, and immediately scannable rather than a dark command center or a generic spreadsheet dashboard.
+**Product character:** Signal Room is a polished, midnight event-operations product. It should feel like a modern startup analytics tool for a busy event lead: spacious, calm, and immediately scannable—not pure black, noisy, or a generic command center.
 
-**Visual tokens:** Use a cool near-white page background, deep navy text, cobalt for selected/interactable controls, coral for attention, amber for monitor, mint for healthy/improved, and text labels alongside every status color. Do not use color as the only status signal.
+**Visual tokens:** Use midnight navy `#0B1020` for the page, raised navy `#141B2D` and `#1C2540` for cards and charts, `#283554` for borders, `#F4F7FB` for primary text, and `#AAB6CF` for secondary text. Use cobalt `#6EA8FE` for selected/interactable controls, coral `#FF6B7A` for attention, amber `#F6C85F` for monitor, and mint `#5DDBB4` for healthy/improved. Plotly uses matching dark surfaces, light axes, and muted gridlines. Do not use pure black or color as the only status signal.
 
 ### Live Event 360 opening state
 
@@ -44,7 +45,7 @@
 │ Horizon Tech Summit                  [ Live Event 360 ] [ Journey & Ops ] │
 ├────────────────────────────────────────────────────────────────────────────┤
 │ Event time: 9:00 ───────────────●────────────── 5:45                      │
-│ [All entities ▼]  [All entity types ▼]                                    │
+│ [All locations ▼]  [View: All locations / Sessions / Shared services ▼]  │
 ├───────────────┬───────────────┬───────────────┬────────────────────────────┤
 │ Occupancy     │ Queue time    │ Pulse score   │ Support cases              │
 │  ... %        │ ... min       │ ... / 5       │ ...                        │
@@ -107,10 +108,11 @@
 ### Navigation and shared state
 
 - Use one Streamlit application with `st.tabs(["Live Event 360", "Journey and Operations"])`; do not use multipage routing, URL routing, or `st.switch_page` in v1.
-- Place the event-time replay slider and entity filters above the tabs so they apply to both views.
+- Place the event-time replay slider, a plain-language `View` grouping control, and the primary `Locations` filter above the tabs so they apply to both views. `Locations` lists recognizable session venues and shared-service zones; do not expose the implementation term “entity type” to end users.
 - Store `selected_entity`, `selected_timestamp`, and `show_investigation` in Streamlit session state.
 - A manual tab switch preserves a valid selected entity: Live Event 360 explains its recommendation; Journey and Operations uses it for the radial profile.
-- A change to time, entity type, or entity filter clears the selection and investigation state before either tab rerenders. This prevents the second tab from showing a stale profile for a different snapshot.
+- A change to time, View, or Locations clears the selection and investigation state before either tab rerenders. This prevents the second tab from showing a stale profile for a different snapshot.
+- An empty chart selection clears the selected entity. Provide a visible `Clear selection` control as a dependable alternative to unselecting within the chart.
 - Selecting a bubble does not automatically navigate away from Live Event 360. The user chooses the Journey and Operations tab when they want the broader journey view.
 
 ### Responsive and accessibility requirements
@@ -134,6 +136,7 @@
 | `tests/` | Known-answer tests for generator, analytics, and journey behavior. |
 | `data/` | Versioned generated CSVs used by the local app and demo. |
 | `README.md` | Setup, architecture, simulated-data disclosure, demo path, and optional Replit handoff. |
+| `docs/data-dictionary.md` | Plain-language definitions, formulas, and confidence caveats for the two simulated CSVs. |
 
 ### Task 1: Bootstrap the runnable project
 
@@ -265,27 +268,27 @@ git commit -m "Add deterministic signal recommendations"
 - Produces: `build_bubble_chart(snapshot: pandas.DataFrame) -> plotly.graph_objects.Figure` and `build_trend_chart(entity_history: pandas.DataFrame) -> plotly.graph_objects.Figure`.
 - Consumes: evaluated signal data from Task 3 and the user-selected replay timestamp.
 
-- [ ] **Step 1: Extend the smoke test with figure tests**
+- [x] **Step 1: Extend the smoke test with figure tests**
 
 Test that the bubble figure excludes `plot_eligible=False` rows, includes `entity_name` as Plotly custom data for selection, and assigns Catalyst Theater an attention marker at 2:30. Test that the trend figure includes the selected entity history.
 
-- [ ] **Step 2: Run the tests to verify they fail**
+- [x] **Step 2: Run the tests to verify they fail**
 
 Run: `python -m pytest tests/test_smoke.py -v`
 
 Expected: FAIL because the figure builders do not exist.
 
-- [ ] **Step 3: Implement the Live Event 360 tab from the UX contract**
+- [x] **Step 3: Implement the Live Event 360 tab from the UX contract**
 
 Use a 9:00 a.m.–5:45 p.m. 15-minute slider with default `2:30 p.m.`. Default to no selected entity. Build KPI cards with units, the bubble chart with pulse score on x, operations pressure on y, people affected as size, and explicit healthy/monitor/attention labels. Use `st.plotly_chart(..., on_select="rerun", selection_mode="points")`; read `entity_name` from custom data and persist it in Streamlit session state. Show a readable empty state when filters return no eligible bubbles.
 
-- [ ] **Step 4: Verify selection manually and with tests**
+- [x] **Step 4: Verify selection manually and with tests**
 
 Run: `python -m pytest tests/test_smoke.py -v` and `streamlit run app.py`.
 
 Expected: the unselected 2:30 view highlights Catalyst Theater without selecting it; selecting a bubble updates the trend and clears or replaces the previous selection correctly.
 
-- [ ] **Step 5: Commit the first end-to-end dashboard slice**
+- [x] **Step 5: Commit the first end-to-end dashboard slice**
 
 ```bash
 git add -- app.py src/signal_room/visuals.py tests/test_smoke.py
@@ -386,7 +389,7 @@ Expected: any missing acceptance behavior is reported before polish is marked co
 
 - [ ] **Step 3: Apply the visual and documentation finish**
 
-Add the initial light startup palette: cool near-white background, deep navy text, cobalt interaction state, coral attention, amber monitor, and mint healthy state. Add metric units, empty states, simulated-data/freshness labels, accessible status text, setup instructions, architecture summary, data dictionary, and optional Replit import steps. Update the submission tracker with actual prompts, screenshots, bugs, and learnings as they occur; do not invent evidence.
+Apply the midnight operations palette: `#0B1020` page background, `#141B2D` and `#1C2540` surfaces, `#283554` borders, `#F4F7FB` primary text, `#AAB6CF` secondary text, cobalt `#6EA8FE` interaction, coral `#FF6B7A` attention, amber `#F6C85F` monitor, and mint `#5DDBB4` healthy. Apply matching Plotly dark surfaces, light axes, and muted gridlines. Add metric units, empty states, simulated-data/freshness labels, accessible status text, setup instructions, architecture summary, data dictionary, and optional Replit import steps. Update the submission tracker with actual prompts, screenshots, bugs, and learnings as they occur; do not invent evidence.
 
 - [ ] **Step 4: Run final verification**
 
