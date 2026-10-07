@@ -1,0 +1,19 @@
+[project]
+name = "signal-room"
+version = "0.1.0"
+description = "A synthetic conference-operations dashboard."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "plotly",
+    "streamlit",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
