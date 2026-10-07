@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from signal_room.analytics import evaluate_rules
+from signal_room.analytics import evaluate_rules, investigation_evidence
 from signal_room.state import resolve_location_selection, resolve_selected_entity
 from signal_room.visuals import build_bubble_chart, build_trend_chart
 
@@ -37,7 +37,7 @@ selected_time = st.select_slider("Replay time", options=times, value=default_tim
 view_options = {"All locations": ["session", "zone"], "Sessions": ["session"], "Shared services": ["zone"]}
 view_col, locations_col = st.columns([1, 2])
 with view_col:
-    selected_view = st.selectbox("View", options=list(view_options), key="selected_view")
+    selected_view = st.selectbox("Show", options=list(view_options), key="selected_view")
 visible_types = view_options[selected_view]
 location_options = sorted(signals[signals["entity_type"].isin(visible_types)]["entity_name"].unique())
 previous_view = st.session_state.get("previous_view")
@@ -59,6 +59,8 @@ snapshot = signals[
 
 if "selected_entity" not in st.session_state:
     st.session_state.selected_entity = None
+if "show_investigation" not in st.session_state:
+    st.session_state.show_investigation = False
 if "filter_scope" not in st.session_state:
     st.session_state.filter_scope = None
 
@@ -66,6 +68,7 @@ filter_scope = (str(selected_time), selected_view, tuple(sorted(selected_locatio
 scope_changed = st.session_state.filter_scope not in (None, filter_scope)
 if scope_changed:
     st.session_state.selected_entity = None
+    st.session_state.show_investigation = False
 st.session_state.filter_scope = filter_scope
 
 kpis = st.columns(5)
@@ -79,34 +82,49 @@ for column, (label, value, help_text) in zip(kpis, [
     column.metric(label, value, help=help_text)
 st.caption("Pulse-score confidence is lower when fewer than five responses are available; treat it as directional feedback.")
 
-chart_col, detail_col = st.columns([2, 1])
-with chart_col:
+bubble_col, location_col = st.columns([1.35, 1])
+with bubble_col:
     if snapshot[snapshot["plot_eligible"].astype(bool)].empty:
-        st.info("No eligible entities match these filters. Adjust the replay time or entity type.")
+        st.info("No locations match these filters. Adjust the replay time, Show, or Locations filters.")
     else:
         selection = st.plotly_chart(build_bubble_chart(snapshot), on_select="rerun", selection_mode="points", key="signal_bubbles")
         points = selection.get("selection", {}).get("points", []) if selection else []
         st.session_state.selected_entity = resolve_selected_entity(
             st.session_state.selected_entity, points, scope_changed
         )
-with detail_col:
-    st.subheader("Signal detail")
+with location_col:
     if st.session_state.selected_entity:
         selected = snapshot[snapshot["entity_name"].eq(st.session_state.selected_entity)]
         if selected.empty:
             st.session_state.selected_entity = None
-            st.info("Select a bubble to inspect a signal.")
+            st.session_state.show_investigation = False
+            st.info("Select a location bubble to see its performance over time.")
         else:
             row = selected.iloc[0]
+            evidence = investigation_evidence(signals, row["entity_name"], selected_time)
+            st.caption("Location")
+            st.subheader(row["entity_name"])
+            history = signals[signals["entity_name"].eq(st.session_state.selected_entity)]
+            st.plotly_chart(build_trend_chart(history), use_container_width=True)
             st.markdown(f"**{row['status'].title()} · {row['entity_name']}**")
-            st.write(row["next_best_action"])
-            st.caption("Verify and dispatch; not automated.")
-            if st.button("Clear selection"):
-                st.session_state.selected_entity = None
-                st.rerun()
+            st.write(f"Suggested next step: {evidence['next_best_action']}")
+            if st.button("Investigate this signal", disabled=not evidence["dispatch_recommended"]):
+                st.session_state.show_investigation = True
     else:
-        st.info("Catalyst Theater is highlighted at 2:30 PM. Select a bubble to inspect its signal.")
+        st.info("Catalyst Theater is highlighted at 2:30 PM. Select a location bubble to inspect its performance and next step.")
 
 if st.session_state.selected_entity:
-    history = signals[signals["entity_name"].eq(st.session_state.selected_entity)]
-    st.plotly_chart(build_trend_chart(history), use_container_width=True)
+    if st.session_state.show_investigation:
+        evidence = investigation_evidence(signals, st.session_state.selected_entity, selected_time)
+        st.subheader(f"Investigation: {st.session_state.selected_entity} · {pd.Timestamp(selected_time).strftime('%-I:%M %p')}")
+        raw = evidence["raw_values"]
+        raw_cols = st.columns(3)
+        raw_cols[0].metric("Occupancy", f"{raw['attendance'] / raw['capacity'] * 100:.0f}%")
+        raw_cols[1].metric("Queue", f"{raw['avg_queue_minutes']:.1f} min")
+        raw_cols[2].metric("Support cases", str(int(raw["support_case_count"])))
+        st.markdown("**Trigger evidence:** " + " · ".join(evidence["triggering_timestamps"]))
+        st.markdown("**Compared with this location's day average**")
+        baseline_cols = st.columns(3)
+        for column, (metric, values) in zip(baseline_cols, evidence["baseline_comparison"].items()):
+            column.metric(metric.replace("_", " ").title(), values["selected"], f"avg {values['entity_day_average']}")
+        st.caption(f"Limitation: {evidence['limitation']}")

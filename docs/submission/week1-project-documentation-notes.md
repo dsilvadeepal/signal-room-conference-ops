@@ -186,6 +186,27 @@ Ran the full test suite after the changes. The selection-state test covers a sel
 - [ ] Locations and View filters
 - [ ] Selected state and Clear selection control
 
+### Iteration 7: Analysis-layout and language refinement
+
+**Prompt used:**
+
+Capture the conversation that reviewed the expanded investigation experience and challenged the use of “entity” in user-facing dashboard titles.
+
+**What changed:**
+
+Reframed the main analysis area as two comparable charts side by side: attendee experience and support pressure on the left, location performance over time on the right. Made the selected-location summary compact and moved the optional investigation below the charts. Replaced technical labels such as “entity” and “Signal detail” with user-facing terms such as “location,” “Selected location,” and “Show.”
+
+**How I verified it:**
+
+Capture the revised dashboard at desktop width and confirm the bubble chart and location-performance chart can be read together before expanding detailed evidence.
+
+**Screenshot placeholders:**
+
+- [ ] Codex conversation with the UX feedback
+- [ ] Two-chart analysis row
+- [ ] Compact selected-location summary
+- [ ] In-page investigation below the charts
+
 ## Bugs and decisions
 
 | Issue or decision | What happened | Resolution | What I learned |
@@ -193,13 +214,14 @@ Ran the full test suite after the changes. The selection-state test covers a sel
 | Streamlit could not import `signal_room` | `uv run pytest` passed because pytest used its configured `src/` path, but `uv run streamlit run app.py` raised `ModuleNotFoundError: No module named 'signal_room'`. | Added package build configuration to `pyproject.toml` and ran `uv sync`, which installed Signal Room into the local environment. | A passing test path does not automatically prove the production runtime can import the same package. Verify the actual app command. |
 | Define attendee pulse score before the next dashboard slice | The dashboard shows a 1–5 pulse score, but the current documentation does not yet state what a score represents or how the synthetic aggregate is calculated. | Pending product/data iteration: document the simulated response scale and aggregation method, then add it to the data dictionary and dashboard help text. | A metric must be interpretable before it is used as a visual axis or decision signal. |
 | Shift the dashboard to a midnight operations theme | The initial UX contract specified a light startup palette, but the desired product character is a dark, modern analytics experience. | Use midnight navy surfaces, bright neutral text, cobalt interaction, and the same coral/amber/mint status hierarchy; avoid pure black and retain text labels with every status color. | Theme changes need a complete token system—page, surfaces, borders, text, charts, and interaction—not only new bubble colors. |
+| Make the investigation flow scannable before detailed | The first investigation layout stacked the location trend under the bubble chart and gave the selected-signal detail too much visual weight. It also used “entity” language unfamiliar to an event operator. | Place the bubble chart and location-performance chart side by side, keep the selected-location summary compact, and reveal detailed evidence below. Replace technical implementation terms in dashboard copy. | Dashboard hierarchy and language are product decisions: the user must understand the comparison before reading evidence, and labels should reflect their real-world vocabulary. |
 |  |  |  |  |
 |  |  |  |  |
 
 ## Learnings and observations
 
 - What Codex accelerated: converting an approved product/UX contract into a runnable Streamlit scaffold, seeded CSV generator, known-answer tests, deterministic analytics functions, and Plotly dashboard components.
-- Where product judgment was still necessary: The initial filter exposed `entity type`—a useful data-model field, but not a clear event-operator concept. Reframed it as a plain-language `View` grouping (All locations, Sessions, Shared services) and made recognizable location names—such as Catalyst Theater, Arrival Hub, and Support Bar—the primary `Locations` filter.
+- Where product judgment was still necessary: The initial filter exposed `entity type`—a useful data-model field, but not a clear event-operator concept. Reframed it as a plain-language `Show` grouping (All locations, Sessions, Shared services) and made recognizable location names—such as Catalyst Theater, Arrival Hub, and Support Bar—the primary `Locations` filter. The same judgment changed “entity trend” and “Signal detail” into location-based labels and reorganized the investigation around two side-by-side charts before detailed evidence.
 - What I learned about Streamlit and Plotly: pytest can pass while the Streamlit runtime still fails, so the real `uv run streamlit run app.py` path must be tested. Plotly selection needs explicit session-state rules and a visible clear action; users should not have to infer how to “unclick” a bubble.
 - Why transparent, deterministic recommendations mattered here: every suggestion can show its thresholds, raw inputs, owner, timing, confidence, limitation, and human decision boundary. This is more appropriate than claiming an opaque model knows the root cause or can take action automatically.
 - What I would add next with real data and appropriate human approval: completed-window event ingestion, appropriately consented attendee feedback, monitored data-quality checks, role-based access, and a human-approved workflow connection for operational dispatch.

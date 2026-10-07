@@ -22,10 +22,10 @@ def build_bubble_chart(snapshot: pd.DataFrame) -> go.Figure:
             customdata=rows[["entity_name"]].to_numpy(), mode="markers", name=status.title(),
             marker={"size": rows["people_affected"], "sizemode": "area", "sizeref": 0.12,
                     "color": STATUS_COLORS[status], "line": {"color": "#F4F7FB", "width": 1}},
-            text=rows["entity_name"], hovertemplate="<b>%{text}</b><br>Pulse: %{x}<br>Operations pressure: %{y:.1f}<extra></extra>",
+            text=rows["entity_name"], hovertemplate="<b>%{text}</b><br>Attendee pulse: %{x}<br>Support pressure: %{y:.1f}<extra></extra>",
         ))
     figure.update_layout(
-        title="Experience pulse vs. operations pressure", height=470,
+        title="Attendee experience and support pressure", height=470,
         xaxis_title="Attendee pulse score (1–5)", yaxis_title="Support cases per 100 attendees",
         legend_title="Status", template="plotly_dark", paper_bgcolor=SURFACE, plot_bgcolor=SURFACE,
         font={"color": TEXT}, legend={"font": {"color": TEXT}},
@@ -42,7 +42,7 @@ def build_trend_chart(entity_history: pd.DataFrame) -> go.Figure:
     figure.add_trace(go.Scatter(x=entity_history["timestamp"], y=entity_history["avg_queue_minutes"],
                                 mode="lines+markers", name="Queue (min)", yaxis="y2", line={"color": "#FF6B7A"}))
     figure.update_layout(
-        title="Selected entity trend", template="plotly_dark", height=340, paper_bgcolor=SURFACE,
+        title="Location performance over time", template="plotly_dark", height=470, paper_bgcolor=SURFACE,
         plot_bgcolor=SURFACE, font={"color": TEXT},
         yaxis={"title": "Occupancy (%)", "gridcolor": GRID, "zerolinecolor": GRID, "color": MUTED},
         yaxis2={"title": "Queue (min)", "overlaying": "y", "side": "right", "gridcolor": GRID, "color": MUTED},

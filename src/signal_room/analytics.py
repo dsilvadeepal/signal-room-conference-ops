@@ -66,6 +66,11 @@ def investigation_evidence(
         history["occupancy_rate"].ge(90) & history["avg_queue_minutes"].ge(12)
         & history["timestamp"].le(snapshot_time)
     ].tail(3)
+    baseline_fields = ["attendee_pulse_score", "app_error_rate_pct", "support_case_count"]
+    baseline_comparison = {
+        field: {"selected": float(row[field]), "entity_day_average": round(float(history[field].mean()), 2)}
+        for field in baseline_fields
+    }
     return {
         "entity_name": entity_name,
         "timestamp": snapshot_time,
@@ -74,4 +79,6 @@ def investigation_evidence(
         "rule_id": row["rule_id"], "next_best_action": row["next_best_action"],
         "owner": row["owner"], "timing": row["timing"], "confidence": row["confidence"],
         "limitation": row["limitation"], "human_decision_boundary": HUMAN_BOUNDARY,
+        "baseline_comparison": baseline_comparison,
+        "dispatch_recommended": row["status"] == "attention",
     }

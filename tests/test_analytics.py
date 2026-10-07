@@ -7,6 +7,7 @@ from signal_room.analytics import (
     investigation_evidence,
     validate_signal_data,
 )
+from signal_room.data_generation import generate_conference_signals
 
 
 def signal_row(timestamp, **overrides):
@@ -74,3 +75,25 @@ def test_normal_session_does_not_trigger_attention():
 def test_missing_required_columns_name_the_missing_fields():
     with pytest.raises(ValueError, match="attendance.*capacity"):
         validate_signal_data(pd.DataFrame({"timestamp": ["2026-10-07 09:00"]}))
+
+
+def test_generated_catalyst_investigation_has_complete_bounded_evidence():
+    evaluated = evaluate_rules(generate_conference_signals(seed=42))
+
+    evidence = investigation_evidence(evaluated, "Catalyst Theater", pd.Timestamp("2026-10-07 14:30"))
+
+    assert evidence["rule_id"] == "capacity_queue+app_support"
+    assert evidence["triggering_timestamps"] == ["2:00 PM", "2:15 PM", "2:30 PM"]
+    assert evidence["owner"] == "Event Operations Lead"
+    assert evidence["timing"] == "Within 15 minutes"
+    assert evidence["human_decision_boundary"] == "Verify and dispatch; not automated."
+    assert set(evidence["baseline_comparison"]) == {"attendee_pulse_score", "app_error_rate_pct", "support_case_count"}
+
+
+def test_normal_session_evidence_does_not_recommend_dispatch():
+    evaluated = evaluate_rules(pd.DataFrame([signal_row("2026-10-07 11:00", entity_name="Studio Two")]))
+
+    evidence = investigation_evidence(evaluated, "Studio Two", pd.Timestamp("2026-10-07 11:00"))
+
+    assert evidence["dispatch_recommended"] is False
+    assert evidence["next_best_action"] == "Continue monitoring."

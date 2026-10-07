@@ -304,27 +304,27 @@ git commit -m "Build Live Event 360 dashboard"
 - Consumes: selected entity state from Task 4 and `investigation_evidence` from Task 3.
 - Produces: a right-side recommendation card and an in-page investigation section.
 
-- [ ] **Step 1: Write failing investigation-evidence tests**
+- [x] **Step 1: Write failing investigation-evidence tests**
 
 Test that Catalyst at 2:30 returns both attention rules, the 2:00/2:15/2:30 trigger timestamps, owner `Event Operations Lead`, timing `Within 15 minutes`, and the exact human boundary text. Test that a normal session returns no dispatch recommendation.
 
-- [ ] **Step 2: Run the tests to verify they fail**
+- [x] **Step 2: Run the tests to verify they fail**
 
 Run: `python -m pytest tests/test_analytics.py -v`
 
 Expected: FAIL because the required evidence fields are absent or incomplete.
 
-- [ ] **Step 3: Implement recommendation and in-page investigation UX from the selected-signal wireframe**
+- [x] **Step 3: Implement recommendation and in-page investigation UX from the selected-signal wireframe**
 
 After a bubble selection, render the recommendation card in the right column. Use a visible `Investigate this signal` button in that card to reveal the in-page investigation section. Show the occupancy/queue timeline, baseline comparison for pulse/app errors/support cases, triggering intervals, raw values, confidence, limitation, owner, timing, and the exact non-automation statement.
 
-- [ ] **Step 4: Verify the complete hero flow**
+- [x] **Step 4: Verify the complete hero flow**
 
 Run: `python -m pytest tests/test_analytics.py -v` and `streamlit run app.py`.
 
 Expected: selecting Catalyst Theater at 2:30 populates the card; clicking `Investigate this signal` shows evidence without changing pages; normal sessions do not imply an unsupported action.
 
-- [ ] **Step 5: Commit the investigation workflow**
+- [x] **Step 5: Commit the investigation workflow**
 
 ```bash
 git add -- app.py src/signal_room/analytics.py tests/test_analytics.py
