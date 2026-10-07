@@ -221,7 +221,7 @@ git commit -m "Generate deterministic conference data"
 - Produces: `validate_signal_data(signals: pandas.DataFrame) -> None`, `add_derived_metrics(signals: pandas.DataFrame) -> pandas.DataFrame`, `evaluate_rules(signals: pandas.DataFrame) -> pandas.DataFrame`, and `investigation_evidence(evaluated: pandas.DataFrame, entity_name: str, timestamp: pandas.Timestamp) -> dict[str, object]`.
 - Consumes: `conference_signals.csv` columns from Task 2.
 
-- [ ] **Step 1: Write failing known-answer tests**
+- [x] **Step 1: Write failing known-answer tests**
 
 Cover these cases:
 
@@ -232,23 +232,23 @@ Cover these cases:
 - A normal session does not trigger attention.
 - Missing required columns raise a readable `ValueError` listing the missing names.
 
-- [ ] **Step 2: Run the tests to verify they fail**
+- [x] **Step 2: Run the tests to verify they fail**
 
 Run: `python -m pytest tests/test_analytics.py -v`
 
 Expected: FAIL because analytics functions do not exist.
 
-- [ ] **Step 3: Implement the analytics interfaces**
+- [x] **Step 3: Implement the analytics interfaces**
 
 Sort rule evaluation by `entity_name` and `timestamp`. Add derived columns for `occupancy_rate`, `operations_pressure_per_100`, `plot_eligible`, `status`, `rule_id`, `next_best_action`, `owner`, `timing`, `confidence`, and `limitation`. The evidence dictionary must contain raw values, triggering timestamps, and the human decision boundary.
 
-- [ ] **Step 4: Verify all rule behavior**
+- [x] **Step 4: Verify all rule behavior**
 
 Run: `python -m pytest tests/test_analytics.py -v`.
 
 Expected: all known-answer tests pass, including three-consecutive-window ordering and zero-attendance behavior.
 
-- [ ] **Step 5: Commit the deterministic decision layer**
+- [x] **Step 5: Commit the deterministic decision layer**
 
 ```bash
 git add -- src/signal_room/analytics.py tests/test_analytics.py
