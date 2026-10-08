@@ -77,20 +77,19 @@ if scope_changed:
     st.session_state.show_investigation = False
 st.session_state.filter_scope = filter_scope
 
-with st.container():
- kpis = st.columns(5)
- for column, (label, value, help_text) in zip(kpis, [
+kpis = st.columns(5)
+for column, (label, value, help_text) in zip(kpis, [
     ("Occupancy", f"{snapshot['occupancy_rate'].mean():.0f}%", None),
     ("Average queue", f"{snapshot['avg_queue_minutes'].mean():.1f} min", None),
     ("Attendee pulse", f"{snapshot['attendee_pulse_score'].mean():.1f} / 5", "Average 1–5 attendee pulse rating; higher is better."),
     ("App errors", f"{snapshot['app_error_rate_pct'].mean():.1f}%", None),
     ("Support cases", str(int(snapshot['support_case_count'].sum())), None),
- ]):
+]):
     column.metric(label, value, help=help_text)
- st.caption("Pulse-score confidence is lower when fewer than five responses are available; treat it as directional feedback.")
+st.caption("Pulse-score confidence is lower when fewer than five responses are available; treat it as directional feedback.")
 
- bubble_col, location_col = st.columns([1.35, 1])
- with bubble_col:
+bubble_col, location_col = st.columns([1.35, 1])
+with bubble_col:
     if snapshot[snapshot["plot_eligible"].astype(bool)].empty:
         st.info("No locations match these filters. Adjust the replay time, Show, or Locations filters.")
     else:
@@ -100,7 +99,8 @@ with st.container():
             st.session_state.selected_entity, points, scope_changed
         )
         st.session_state.show_investigation = bool(st.session_state.selected_entity)
-  with location_col:
+
+with location_col:
     if st.session_state.selected_entity:
         selected = snapshot[snapshot["entity_name"].eq(st.session_state.selected_entity)]
         if selected.empty:
@@ -130,18 +130,17 @@ with st.container():
         )
         st.info("Select a coral Attention bubble, or any location, to review its location-specific trend and insight.")
 
- if st.session_state.selected_entity:
-    if st.session_state.show_investigation:
-        evidence = investigation_evidence(signals, st.session_state.selected_entity, selected_time)
-        st.subheader(f"Investigation: {st.session_state.selected_entity} · {pd.Timestamp(selected_time).strftime('%-I:%M %p')}")
-        raw = evidence["raw_values"]
-        raw_cols = st.columns(3)
-        raw_cols[0].metric("Occupancy", f"{raw['attendance'] / raw['capacity'] * 100:.0f}%")
-        raw_cols[1].metric("Queue", f"{raw['avg_queue_minutes']:.1f} min")
-        raw_cols[2].metric("Support cases", str(int(raw["support_case_count"])))
-        st.markdown("**Trigger evidence:** " + " · ".join(evidence["triggering_timestamps"]))
-        st.markdown("**Compared with this location's day average**")
-        baseline_cols = st.columns(3)
-        for column, (metric, values) in zip(baseline_cols, evidence["baseline_comparison"].items()):
-            column.metric(metric.replace("_", " ").title(), values["selected"], f"avg {values['entity_day_average']}")
-        st.caption(f"Limitation: {evidence['limitation']}")
+if st.session_state.selected_entity and st.session_state.show_investigation:
+    evidence = investigation_evidence(signals, st.session_state.selected_entity, selected_time)
+    st.subheader(f"Investigation: {st.session_state.selected_entity} · {pd.Timestamp(selected_time).strftime('%-I:%M %p')}")
+    raw = evidence["raw_values"]
+    raw_cols = st.columns(3)
+    raw_cols[0].metric("Occupancy", f"{raw['attendance'] / raw['capacity'] * 100:.0f}%")
+    raw_cols[1].metric("Queue", f"{raw['avg_queue_minutes']:.1f} min")
+    raw_cols[2].metric("Support cases", str(int(raw["support_case_count"])))
+    st.markdown("**Trigger evidence:** " + " · ".join(evidence["triggering_timestamps"]))
+    st.markdown("**Compared with this location's day average**")
+    baseline_cols = st.columns(3)
+    for column, (metric, values) in zip(baseline_cols, evidence["baseline_comparison"].items()):
+        column.metric(metric.replace("_", " ").title(), values["selected"], f"avg {values['entity_day_average']}")
+    st.caption(f"Limitation: {evidence['limitation']}")
