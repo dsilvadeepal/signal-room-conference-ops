@@ -3,6 +3,7 @@ import pytest
 
 from signal_room.analytics import (
     add_derived_metrics,
+    build_overall_conference_pulse,
     evaluate_rules,
     investigation_evidence,
     validate_signal_data,
@@ -33,6 +34,19 @@ def test_derived_operations_pressure_and_zero_attendance_behavior():
     assert derived.loc[0, "operations_pressure_per_100"] == 5.0
     assert pd.isna(derived.loc[1, "operations_pressure_per_100"])
     assert derived.loc[1, "plot_eligible"] is False
+
+
+def test_overall_conference_pulse_uses_weighted_occupancy_and_queue():
+    signals = pd.DataFrame([
+        signal_row("2026-10-07 14:30", entity_name="Catalyst Theater", capacity=100, attendance=90, avg_queue_minutes=12),
+        signal_row("2026-10-07 14:30", entity_name="Studio Two", capacity=300, attendance=150, avg_queue_minutes=4),
+    ])
+
+    pulse = build_overall_conference_pulse(signals)
+
+    assert len(pulse) == 1
+    assert pulse.loc[0, "occupancy_rate"] == 60.0
+    assert pulse.loc[0, "avg_queue_minutes"] == 7.0
 
 
 def test_capacity_queue_attention_requires_three_consecutive_intervals():

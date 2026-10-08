@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from signal_room.analytics import evaluate_rules, investigation_evidence
+from signal_room.analytics import build_overall_conference_pulse, evaluate_rules, investigation_evidence
 from signal_room.state import resolve_location_selection, resolve_selected_entity
 from signal_room.visuals import build_bubble_chart, build_trend_chart
 
@@ -58,6 +58,10 @@ snapshot = signals[
     & signals["entity_type"].isin(visible_types)
     & signals["entity_name"].isin(selected_locations)
 ]
+visible_history = signals[
+    signals["entity_type"].isin(visible_types)
+    & signals["entity_name"].isin(selected_locations)
+]
 
 if "selected_entity" not in st.session_state:
     st.session_state.selected_entity = None
@@ -95,7 +99,8 @@ with st.container():
         st.session_state.selected_entity = resolve_selected_entity(
             st.session_state.selected_entity, points, scope_changed
         )
- with location_col:
+        st.session_state.show_investigation = bool(st.session_state.selected_entity)
+  with location_col:
     if st.session_state.selected_entity:
         selected = snapshot[snapshot["entity_name"].eq(st.session_state.selected_entity)]
         if selected.empty:
@@ -104,16 +109,26 @@ with st.container():
             st.info("Select a location bubble to see its performance over time.")
         else:
             row = selected.iloc[0]
-            evidence = investigation_evidence(signals, row["entity_name"], selected_time)
-            st.subheader(f"Location: {row['entity_name']}")
+            st.subheader(f"Selected location: {row['entity_name']}")
             history = signals[signals["entity_name"].eq(st.session_state.selected_entity)]
-            st.plotly_chart(build_trend_chart(history), use_container_width=True)
+            st.caption("This location’s trend across the simulated event day.")
+            st.plotly_chart(
+                build_trend_chart(history, title=f"Location performance over time: {row['entity_name']}"),
+                use_container_width=True,
+            )
             st.markdown(f"**{row['status'].title()} · {row['entity_name']}**")
-            st.write(f"Suggested next step: {evidence['next_best_action']}")
-            if st.button("Investigate this signal", disabled=not evidence["dispatch_recommended"]):
-                st.session_state.show_investigation = True
+            if st.button("Clear location selection"):
+                st.session_state.selected_entity = None
+                st.session_state.show_investigation = False
+                st.rerun()
     else:
-        st.info("Catalyst Theater is highlighted at 2:30 PM. Select a location bubble to inspect its performance and next step.")
+        st.subheader("Overall conference pulse")
+        st.caption("Combined occupancy and attendance-weighted average queue time for the locations in the current filters.")
+        st.plotly_chart(
+            build_trend_chart(visible_history.pipe(build_overall_conference_pulse), title="Overall conference pulse"),
+            use_container_width=True,
+        )
+        st.info("Select a coral Attention bubble, or any location, to review its location-specific trend and insight.")
 
  if st.session_state.selected_entity:
     if st.session_state.show_investigation:

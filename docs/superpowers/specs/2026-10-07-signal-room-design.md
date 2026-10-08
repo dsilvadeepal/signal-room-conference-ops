@@ -79,10 +79,10 @@ The dashboard answers: **Where should I look now?**
   - Y-axis: operations pressure, shown as support cases per 100 attendees.
   - Bubble size: people affected.
   - Bubble color and status label: healthy, monitor, or attention.
-- Selecting a bubble populates the right-side recommendation panel and updates all linked details on the page.
-- A linked time trend shows occupancy, queue time, support cases, and pulse score for the selected entity across the relevant day.
-- An Evidence and next-best-action panel states the triggered rule, inputs, proposed response, confidence, and limitation.
-- Clicking the recommendation panel opens an investigation view for the selected entity. It contains:
+- The right-side chart is always visible. Before selection, **Overall conference pulse** shows combined occupancy and attendance-weighted average queue time for the current filters across the event day.
+- Selecting a bubble replaces the overall trend with **Location performance over time: [location]** and shows that location’s status.
+- The selected location’s Evidence and next-best-action section appears below the two charts. It states the triggered rule, inputs, proposed response, confidence, and limitation.
+- The investigation view for the selected location contains:
   - a 15-minute timeline of occupancy and queue time;
   - a comparison of pulse score, app error rate, and support cases against the selected entity's day baseline;
   - the three consecutive intervals or current interval that triggered the rule; and
@@ -126,7 +126,7 @@ The implementation must use only local files. No credentials or secrets are need
 - Validate required CSV columns before calculating metrics. Show a readable error if the file is missing or invalid.
 - Show a clear empty state when filters return no records.
 - Prevent divide-by-zero errors for capacity and response-count calculations.
-- Keep filters, KPI cards, bubble selection, trend, and evidence panel consistent with the same selected scope.
+- Keep filters, KPI cards, bubble selection, overall conference pulse, location trend, and evidence panel consistent with the same selected scope.
 - Use status labels and text in addition to color.
 - Never expose a real external action button; recommendations are informational only.
 
@@ -144,10 +144,10 @@ The v1 product decisions are approved for implementation. Late-afternoon improve
 
 - [ ] The generated CSV contains exactly 288 rows and all required columns.
 - [ ] The 2:30 p.m. Catalyst Theater scenario is visible through the filters and triggers the intended attention recommendation.
-- [ ] Selecting its bubble updates the linked trend and evidence panel.
+- [ ] The opening state shows the filter-aware Overall conference pulse; selecting a bubble switches to that location’s trend and evidence panel.
 - [ ] Operations pressure is calculated as support cases per 100 attendees; zero-attendance entities are shown as `N/A` and omitted from the bubble chart.
 - [ ] The opening state shows 2:30 p.m. with no bubble selected and makes Catalyst Theater visually prominent through size, attention status, and a priority label.
-- [ ] Selecting Catalyst Theater populates its recommendation; clicking that recommendation opens its investigation metrics within the same dashboard page.
+- [ ] Selecting Catalyst Theater shows its recommendation and investigation metrics within the same dashboard page.
 - [ ] A normal session shows either healthy or monitor status and does not trigger an attention recommendation.
 - [ ] Empty or insufficient-data scopes produce a readable limitation state.
 - [ ] The app runs locally with documented setup steps and can be demonstrated in five minutes or less.

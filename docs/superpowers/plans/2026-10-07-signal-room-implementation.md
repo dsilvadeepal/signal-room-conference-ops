@@ -48,9 +48,9 @@
 │ Occupancy     │ Queue time    │ Pulse score   │ Support cases              │
 │  ... %        │ ... min       │ ... / 5       │ ...                        │
 ├───────────────────────────────────────────────┬────────────────────────────┤
-│                                               │ Select a signal            │
-│  Attendee pulse score                         │ Catalyst Theater is marked │
-│                                               │ Priority in the chart.     │
+│                                               │ Overall conference pulse   │
+│  Attendee pulse score                         │ occupancy + queue trends   │
+│                                               │ for current filters        │
 │               ● Catalyst Theater              │ No recommendation appears  │
 │                                               │ until a bubble is selected.│
 │  Bubble chart:                                 │                            │
@@ -62,8 +62,8 @@
 
 - Default time is 2:30 p.m.; no bubble is selected.
 - Catalyst Theater is the largest coral `Attention · Priority` bubble at that time. Its label must remain visible without hover.
-- The right rail is an instructional empty state until a user selects a bubble.
-- Filter or time changes clear an invalid prior selection and restore the empty state.
+- The right rail shows the filter-aware Overall conference pulse until a user selects a bubble.
+- Filter or time changes clear an invalid prior selection and restore the overall conference pulse.
 
 ### Selected-signal and investigation state
 
@@ -73,7 +73,7 @@
 │                                                │ Rule: capacity + queue      │
 │                                                │ Suggested owner: Event Ops  │
 │                                                │ Within 15 minutes           │
-│                                                │ [ Investigate this signal ] │
+│                                                │ Location trend and status  │
 ├───────────────────────────────────────────────┴────────────────────────────┤
 │ Investigation: Catalyst Theater · 2:30 p.m.                                │
 │ [Occupancy + queue timeline]      [Pulse, app error, support vs baseline] │
@@ -82,8 +82,7 @@
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- Selecting a bubble populates the recommendation card; it does not immediately expand the investigation.
-- The visible `Investigate this signal` button expands the investigation **within the same page**. It must not navigate to a new page.
+- Selecting a bubble switches the right trend to the location and immediately reveals the investigation **within the same page**. It must not navigate to a new page.
 - The evidence section shows raw metrics and triggering intervals before recommendation prose.
 - Recommendations say “suggested next step,” never “automatic action,” “root cause,” or “this action will fix the issue.”
 
@@ -201,7 +200,7 @@ git commit -m "Generate deterministic conference data"
 - Create: `src/signal_room/analytics.py`, `tests/test_analytics.py`
 
 **Interfaces:**
-- Produces: `validate_signal_data(signals: pandas.DataFrame) -> None`, `add_derived_metrics(signals: pandas.DataFrame) -> pandas.DataFrame`, `evaluate_rules(signals: pandas.DataFrame) -> pandas.DataFrame`, and `investigation_evidence(evaluated: pandas.DataFrame, entity_name: str, timestamp: pandas.Timestamp) -> dict[str, object]`.
+- Produces: `validate_signal_data(signals: pandas.DataFrame) -> None`, `add_derived_metrics(signals: pandas.DataFrame) -> pandas.DataFrame`, `evaluate_rules(signals: pandas.DataFrame) -> pandas.DataFrame`, `build_overall_conference_pulse(signals: pandas.DataFrame) -> pandas.DataFrame`, and `investigation_evidence(evaluated: pandas.DataFrame, entity_name: str, timestamp: pandas.Timestamp) -> dict[str, object]`.
 - Consumes: `conference_signals.csv` columns from Task 2.
 
 - [x] **Step 1: Write failing known-answer tests**
@@ -245,7 +244,7 @@ git commit -m "Add deterministic signal recommendations"
 - Modify: `app.py`, `tests/test_smoke.py`
 
 **Interfaces:**
-- Produces: `build_bubble_chart(snapshot: pandas.DataFrame) -> plotly.graph_objects.Figure` and `build_trend_chart(entity_history: pandas.DataFrame) -> plotly.graph_objects.Figure`.
+- Produces: `build_bubble_chart(snapshot: pandas.DataFrame) -> plotly.graph_objects.Figure` and `build_trend_chart(history: pandas.DataFrame, title: str) -> plotly.graph_objects.Figure`.
 - Consumes: evaluated signal data from Task 3 and the user-selected replay timestamp.
 
 - [x] **Step 1: Extend the smoke test with figure tests**
@@ -296,13 +295,13 @@ Expected: FAIL because the required evidence fields are absent or incomplete.
 
 - [x] **Step 3: Implement recommendation and in-page investigation UX from the selected-signal wireframe**
 
-After a bubble selection, render the recommendation card in the right column. Use a visible `Investigate this signal` button in that card to reveal the in-page investigation section. Show the occupancy/queue timeline, baseline comparison for pulse/app errors/support cases, triggering intervals, raw values, confidence, limitation, owner, timing, and the exact non-automation statement.
+Render an Overall conference pulse in the right column before selection, using total attendance divided by total capacity for occupancy and an attendance-weighted average for queue time across the current filters. After a bubble selection, switch to the selected location trend and reveal the in-page investigation section. Show the occupancy/queue timeline, baseline comparison for pulse/app errors/support cases, triggering intervals, raw values, confidence, limitation, owner, timing, and the exact non-automation statement.
 
 - [x] **Step 4: Verify the complete hero flow**
 
 Run: `python -m pytest tests/test_analytics.py -v` and `streamlit run app.py`.
 
-Expected: selecting Catalyst Theater at 2:30 populates the card; clicking `Investigate this signal` shows evidence without changing pages; normal sessions do not imply an unsupported action.
+Expected: the unselected state shows Overall conference pulse; selecting Catalyst Theater at 2:30 switches to the location trend and shows evidence without changing pages; normal sessions do not imply an unsupported action.
 
 - [x] **Step 5: Commit the investigation workflow**
 

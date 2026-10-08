@@ -36,10 +36,26 @@ def test_trend_chart_contains_the_selected_entity_history():
         "avg_queue_minutes": [12.0, 14.0],
     })
 
-    figure = build_trend_chart(history)
+    figure = build_trend_chart(history, title="Location performance over time: Catalyst Theater")
 
     assert len(figure.data) == 2
     assert list(figure.data[0].x) == list(history["timestamp"])
+
+
+def test_trend_chart_uses_an_ops_manager_title_for_the_conference_default():
+    import pandas as pd
+
+    from signal_room.visuals import build_trend_chart
+
+    history = pd.DataFrame({
+        "timestamp": pd.to_datetime(["2026-10-07 14:00", "2026-10-07 14:15"]),
+        "occupancy_rate": [70.0, 74.0],
+        "avg_queue_minutes": [4.0, 5.0],
+    })
+
+    figure = build_trend_chart(history, title="Overall conference pulse")
+
+    assert figure.layout.title.text == "Overall conference pulse"
 
 
 def test_selection_state_clears_on_empty_chart_selection_or_scope_change():

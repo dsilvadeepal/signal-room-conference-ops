@@ -53,6 +53,31 @@ def evaluate_rules(signals: pd.DataFrame) -> pd.DataFrame:
     return evaluated
 
 
+def build_overall_conference_pulse(signals: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate visible locations into an operations-manager trend by interval."""
+    if signals.empty:
+        return pd.DataFrame(columns=["timestamp", "occupancy_rate", "avg_queue_minutes"])
+
+    def summarize_interval(rows: pd.DataFrame) -> pd.Series:
+        total_attendance = rows["attendance"].sum()
+        total_capacity = rows["capacity"].sum()
+        queue_weights = rows["attendance"]
+        queue = (
+            (rows["avg_queue_minutes"] * queue_weights).sum() / queue_weights.sum()
+            if queue_weights.sum() else rows["avg_queue_minutes"].mean()
+        )
+        return pd.Series({
+            "occupancy_rate": total_attendance / total_capacity * 100 if total_capacity else 0.0,
+            "avg_queue_minutes": queue,
+        })
+
+    return (
+        signals.groupby("timestamp", as_index=False)
+        .apply(summarize_interval, include_groups=False)
+        .sort_values("timestamp", ignore_index=True)
+    )
+
+
 def investigation_evidence(
     evaluated: pd.DataFrame, entity_name: str, timestamp: pd.Timestamp
 ) -> dict[str, object]:

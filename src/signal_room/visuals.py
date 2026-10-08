@@ -33,14 +33,14 @@ def build_bubble_chart(snapshot: pd.DataFrame) -> go.Figure:
         yaxis={"gridcolor": GRID, "zerolinecolor": GRID, "color": MUTED},
     )
     return figure
-def build_trend_chart(entity_history: pd.DataFrame) -> go.Figure:
+def build_trend_chart(history: pd.DataFrame, title: str) -> go.Figure:
     figure = go.Figure()
-    figure.add_trace(go.Scatter(x=entity_history["timestamp"], y=entity_history["occupancy_rate"],
+    figure.add_trace(go.Scatter(x=history["timestamp"], y=history["occupancy_rate"],
                                 mode="lines+markers", name="Occupancy (%)", line={"color": "#6EA8FE"}))
-    figure.add_trace(go.Scatter(x=entity_history["timestamp"], y=entity_history["avg_queue_minutes"],
+    figure.add_trace(go.Scatter(x=history["timestamp"], y=history["avg_queue_minutes"],
                                 mode="lines+markers", name="Queue (min)", yaxis="y2", line={"color": "#FF6B7A"}))
     figure.update_layout(
-        title="Performance over time", template="plotly_dark", height=290, paper_bgcolor=SURFACE,
+        title=title, template="plotly_dark", height=290, paper_bgcolor=SURFACE,
         plot_bgcolor=SURFACE, font={"color": TEXT},
         yaxis={"title": "Occupancy (%)", "gridcolor": GRID, "zerolinecolor": GRID, "color": MUTED},
         yaxis2={"title": "Queue (min)", "overlaying": "y", "side": "right", "gridcolor": GRID, "color": MUTED},

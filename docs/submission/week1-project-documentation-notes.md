@@ -205,6 +205,25 @@ Capture the revised dashboard at desktop width and confirm the bubble chart and 
 - [ ] Compact selected-location summary
 - [ ] In-page investigation below the charts
 
+### Iteration 8: Conference pulse before location drill-down
+
+**Prompt used:**
+
+Capture the conversation that clarified the default right-side chart should be one combined trend for the filtered conference scope—not multiple location lines—and should switch to a location trend after a bubble is selected.
+
+**What changed:**
+
+Added an always-visible **Overall conference pulse** with combined occupancy and attendance-weighted average queue time across the current filters. Selecting a bubble replaces it with **Location performance over time** for that location and immediately reveals the location insight below the charts.
+
+**How I verified it:**
+
+Added a known-answer test for the aggregation formula and a chart-title test, then ran the full test suite.
+
+**Screenshot placeholders:**
+
+- [ ] Default overall conference pulse
+- [ ] Selected location trend and investigation insight
+
 ## Bugs and decisions
 
 | Issue or decision | What happened | Resolution | What I learned |
@@ -214,6 +233,7 @@ Capture the revised dashboard at desktop width and confirm the bubble chart and 
 | Shift the dashboard to a midnight operations theme | The initial UX contract specified a light startup palette, but the desired product character is a dark, modern analytics experience. | Use midnight navy surfaces, bright neutral text, cobalt interaction, and the same coral/amber/mint status hierarchy; avoid pure black and retain text labels with every status color. | Theme changes need a complete token system—page, surfaces, borders, text, charts, and interaction—not only new bubble colors. |
 | Make the investigation flow scannable before detailed | The first investigation layout stacked the location trend under the bubble chart and gave the selected-signal detail too much visual weight. It also used “entity” language unfamiliar to an event operator. | Place the bubble chart and location-performance chart side by side, keep the selected-location summary compact, and reveal detailed evidence below. Replace technical implementation terms in dashboard copy. | Dashboard hierarchy and language are product decisions: the user must understand the comparison before reading evidence, and labels should reflect their real-world vocabulary. |
 | Keep the Week 1 scope focused | A Journey and Operations tab, attendee-level journey CSV, Sankey diagram, and radial health profile would add complexity without supporting a required handout deliverable. | Removed the extra dataset and view. Kept one deterministic operations dashboard with a clear investigation flow. | Extra visualizations are valuable only when they answer a necessary user question or strengthen the required demonstration. |
+| Show overall operations before drilling into one location | A blank right panel until a bubble click did not give an operations lead enough context for the conference as a whole. Overlaying location-level lines would be difficult to read. | Added one combined Overall conference pulse for the current filters, then switch to the chosen location’s trend after selection. | A dashboard can support both monitoring and investigation when the overview aggregation is explicit and the drill-down is reversible. |
 |  |  |  |  |
 |  |  |  |  |
 
