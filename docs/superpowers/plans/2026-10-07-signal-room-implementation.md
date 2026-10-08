@@ -84,6 +84,7 @@
 
 - Selecting a bubble switches the right trend to the location and immediately reveals the investigation **within the same page**. It must not navigate to a new page.
 - The evidence section shows raw metrics and triggering intervals before recommendation prose.
+- Day-average comparison deltas use semantic color direction: lower pulse is red, while higher app errors and support cases are red.
 - Recommendations say “suggested next step,” never “automatic action,” “root cause,” or “this action will fix the issue.”
 
 ### Navigation and state

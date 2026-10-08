@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from signal_room.analytics import build_overall_conference_pulse, evaluate_rules, investigation_evidence
+from signal_room.analytics import comparison_delta, build_overall_conference_pulse, evaluate_rules, investigation_evidence
 from signal_room.state import resolve_location_selection, resolve_selected_entity
 from signal_room.visuals import build_bubble_chart, build_trend_chart
 
@@ -141,6 +141,17 @@ if st.session_state.selected_entity and st.session_state.show_investigation:
     st.markdown("**Trigger evidence:** " + " · ".join(evidence["triggering_timestamps"]))
     st.markdown("**Compared with this location's day average**")
     baseline_cols = st.columns(3)
+    comparison_labels = {
+        "attendee_pulse_score": "Attendee pulse score",
+        "app_error_rate_pct": "App error rate",
+        "support_case_count": "Support cases",
+    }
     for column, (metric, values) in zip(baseline_cols, evidence["baseline_comparison"].items()):
-        column.metric(metric.replace("_", " ").title(), values["selected"], f"avg {values['entity_day_average']}")
+        comparison = comparison_delta(metric, values["selected"], values["entity_day_average"])
+        column.metric(
+            comparison_labels[metric],
+            comparison["value"],
+            comparison["delta"],
+            delta_color=comparison["delta_color"],
+        )
     st.caption(f"Limitation: {evidence['limitation']}")

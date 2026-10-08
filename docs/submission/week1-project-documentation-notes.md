@@ -224,6 +224,24 @@ Added a known-answer test for the aggregation formula and a chart-title test, th
 - [ ] Default overall conference pulse
 - [ ] Selected location trend and investigation insight
 
+### Iteration 9: Semantically correct investigation deltas
+
+**Prompt used:**
+
+Capture the dashboard review that identified a misleading green comparison state for Catalyst Theater’s lower pulse score, higher app-error rate, and higher support-case count at 2:30 p.m.
+
+**What changed:**
+
+Replaced generic “average” labels with explicit differences from the location’s day average. A lower attendee pulse displays as a red negative delta. Higher app errors and support cases display as red positive deltas, because an increase in those measures is operationally worse.
+
+**How I verified it:**
+
+Added a known-answer test for pulse, app-error, and support-case formatting and color direction; then ran the full test suite.
+
+**Screenshot placeholders:**
+
+- [ ] Catalyst Theater investigation showing red/negative semantic deltas
+
 ## Bugs and decisions
 
 | Issue or decision | What happened | Resolution | What I learned |
@@ -234,6 +252,7 @@ Added a known-answer test for the aggregation formula and a chart-title test, th
 | Make the investigation flow scannable before detailed | The first investigation layout stacked the location trend under the bubble chart and gave the selected-signal detail too much visual weight. It also used “entity” language unfamiliar to an event operator. | Place the bubble chart and location-performance chart side by side, keep the selected-location summary compact, and reveal detailed evidence below. Replace technical implementation terms in dashboard copy. | Dashboard hierarchy and language are product decisions: the user must understand the comparison before reading evidence, and labels should reflect their real-world vocabulary. |
 | Keep the Week 1 scope focused | A Journey and Operations tab, attendee-level journey CSV, Sankey diagram, and radial health profile would add complexity without supporting a required handout deliverable. | Removed the extra dataset and view. Kept one deterministic operations dashboard with a clear investigation flow. | Extra visualizations are valuable only when they answer a necessary user question or strengthen the required demonstration. |
 | Show overall operations before drilling into one location | A blank right panel until a bubble click did not give an operations lead enough context for the conference as a whole. Overlaying location-level lines would be difficult to read. | Added one combined Overall conference pulse for the current filters, then switch to the chosen location’s trend after selection. | A dashboard can support both monitoring and investigation when the overview aggregation is explicit and the drill-down is reversible. |
+| Use semantic colors for comparison deltas | The dashboard showed higher app errors and support cases with a green upward comparison, which could be interpreted as good performance. | Calculate the difference from the location’s day average and use inverse color direction for error rate and support cases. | Color should represent operational meaning, not merely numerical direction. |
 |  |  |  |  |
 |  |  |  |  |
 

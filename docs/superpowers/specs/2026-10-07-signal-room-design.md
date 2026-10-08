@@ -82,6 +82,7 @@ The dashboard answers: **Where should I look now?**
 - The right-side chart is always visible. Before selection, **Overall conference pulse** shows combined occupancy and attendance-weighted average queue time for the current filters across the event day.
 - Selecting a bubble replaces the overall trend with **Location performance over time: [location]** and shows that location’s status.
 - The selected location’s Evidence and next-best-action section appears below the two charts. It states the triggered rule, inputs, proposed response, confidence, and limitation.
+- Day-average comparisons use directional deltas: lower attendee pulse is red; higher app-error rate and support cases are red. The delta text states the difference rather than presenting the average as a positive change.
 - The investigation view for the selected location contains:
   - a 15-minute timeline of occupancy and queue time;
   - a comparison of pulse score, app error rate, and support cases against the selected entity's day baseline;

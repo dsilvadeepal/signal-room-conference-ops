@@ -4,6 +4,7 @@ import pytest
 from signal_room.analytics import (
     add_derived_metrics,
     build_overall_conference_pulse,
+    comparison_delta,
     evaluate_rules,
     investigation_evidence,
     validate_signal_data,
@@ -47,6 +48,16 @@ def test_overall_conference_pulse_uses_weighted_occupancy_and_queue():
     assert len(pulse) == 1
     assert pulse.loc[0, "occupancy_rate"] == 60.0
     assert pulse.loc[0, "avg_queue_minutes"] == 7.0
+
+
+def test_comparison_delta_uses_semantic_colors_for_better_and_worse_changes():
+    pulse = comparison_delta("attendee_pulse_score", selected=2.5, baseline=3.88)
+    app_errors = comparison_delta("app_error_rate_pct", selected=6.2, baseline=2.0)
+    support_cases = comparison_delta("support_case_count", selected=7, baseline=2.06)
+
+    assert pulse == {"value": "2.5 / 5", "delta": "-1.38 vs day average", "delta_color": "normal"}
+    assert app_errors == {"value": "6.2%", "delta": "+4.2 pp vs day average", "delta_color": "inverse"}
+    assert support_cases == {"value": "7", "delta": "+4.94 vs day average", "delta_color": "inverse"}
 
 
 def test_capacity_queue_attention_requires_three_consecutive_intervals():

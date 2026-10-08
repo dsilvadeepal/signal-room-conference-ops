@@ -9,6 +9,30 @@ from signal_room.data_generation import REQUIRED_SIGNAL_COLUMNS
 HUMAN_BOUNDARY = "Verify and dispatch; not automated."
 
 
+def comparison_delta(metric: str, selected: float, baseline: float) -> dict[str, str]:
+    """Format a day-average comparison with operationally meaningful color direction."""
+    delta = float(selected) - float(baseline)
+    if metric == "attendee_pulse_score":
+        return {
+            "value": f"{selected:.1f} / 5",
+            "delta": f"{delta:+.2f} vs day average",
+            "delta_color": "normal",
+        }
+    if metric == "app_error_rate_pct":
+        return {
+            "value": f"{selected:.1f}%",
+            "delta": f"{delta:+.1f} pp vs day average",
+            "delta_color": "inverse",
+        }
+    if metric == "support_case_count":
+        return {
+            "value": f"{selected:.0f}",
+            "delta": f"{delta:+.2f} vs day average",
+            "delta_color": "inverse",
+        }
+    raise ValueError(f"Unsupported comparison metric: {metric}")
+
+
 def validate_signal_data(signals: pd.DataFrame) -> None:
     missing = sorted(REQUIRED_SIGNAL_COLUMNS.difference(signals.columns))
     if missing:
