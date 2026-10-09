@@ -320,11 +320,11 @@ git commit -m "Add recommendation investigation flow"
 **Interfaces:**
 - Produces: a readable local application, a data dictionary, and instructions for a reviewer to run or import the repository into Replit.
 
-- [ ] **Step 1: Add final acceptance tests and copy checks**
+- [x] **Step 1: Add final acceptance tests and copy checks**
 
 Add tests that the generator contains the 2:30 Catalyst attention scenario, normal sessions do not alert, and no recommendation copy claims that a late-afternoon improvement was caused by an intervention.
 
-- [ ] **Step 2: Run the tests to verify any final gaps**
+- [x] **Step 2: Run the tests to verify any final gaps**
 
 Run: `python -m pytest -q`.
 
