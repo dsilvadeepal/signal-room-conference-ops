@@ -1,1 +1,8 @@
 .worktrees/
+.venv/
+.env
+.streamlit/secrets.toml
+__pycache__/
+.pytest_cache/
+docs/submission/week1-project-documentation-notes.md
+/.solution_context/
