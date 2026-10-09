@@ -12,6 +12,11 @@ def resolve_selected_entity(previous: str | None, points: list[dict] | None, sco
     return points[0]["customdata"][0]
 
 
+def chart_selection_key(version: int) -> str:
+    """Return a new Plotly widget key when a user explicitly clears selection."""
+    return f"signal_bubbles_{version}"
+
+
 def resolve_location_selection(previous: list[str], options: list[str], view_changed: bool) -> list[str]:
     """Keep location choices valid when the dependent View control changes."""
     if view_changed:

@@ -59,13 +59,14 @@ def test_trend_chart_uses_an_ops_manager_title_for_the_conference_default():
 
 
 def test_selection_state_clears_on_empty_chart_selection_or_scope_change():
-    from signal_room.state import resolve_selected_entity
+    from signal_room.state import chart_selection_key, resolve_selected_entity
 
     selected_point = [{"customdata": ["Catalyst Theater"]}]
 
     assert resolve_selected_entity(None, selected_point, scope_changed=False) == "Catalyst Theater"
     assert resolve_selected_entity("Catalyst Theater", [], scope_changed=False) is None
     assert resolve_selected_entity("Catalyst Theater", selected_point, scope_changed=True) is None
+    assert chart_selection_key(0) != chart_selection_key(1)
 
 
 def test_dependent_location_filter_resets_to_valid_locations_after_view_change():

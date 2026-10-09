@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 from signal_room.analytics import comparison_delta, build_overall_conference_pulse, evaluate_rules, investigation_evidence
-from signal_room.state import resolve_location_selection, resolve_selected_entity
+from signal_room.state import chart_selection_key, resolve_location_selection, resolve_selected_entity
 from signal_room.visuals import build_bubble_chart, build_trend_chart
 
 
@@ -69,6 +69,8 @@ if "show_investigation" not in st.session_state:
     st.session_state.show_investigation = False
 if "filter_scope" not in st.session_state:
     st.session_state.filter_scope = None
+if "bubble_chart_version" not in st.session_state:
+    st.session_state.bubble_chart_version = 0
 
 filter_scope = (str(selected_time), selected_view, tuple(sorted(selected_locations)))
 scope_changed = st.session_state.filter_scope not in (None, filter_scope)
@@ -93,7 +95,12 @@ with bubble_col:
     if snapshot[snapshot["plot_eligible"].astype(bool)].empty:
         st.info("No locations match these filters. Adjust the replay time, Show, or Locations filters.")
     else:
-        selection = st.plotly_chart(build_bubble_chart(snapshot), on_select="rerun", selection_mode="points", key="signal_bubbles")
+        selection = st.plotly_chart(
+            build_bubble_chart(snapshot),
+            on_select="rerun",
+            selection_mode="points",
+            key=chart_selection_key(st.session_state.bubble_chart_version),
+        )
         points = selection.get("selection", {}).get("points", []) if selection else []
         st.session_state.selected_entity = resolve_selected_entity(
             st.session_state.selected_entity, points, scope_changed
@@ -120,6 +127,7 @@ with location_col:
             if st.button("Clear location selection"):
                 st.session_state.selected_entity = None
                 st.session_state.show_investigation = False
+                st.session_state.bubble_chart_version += 1
                 st.rerun()
     else:
         st.subheader("Overall conference pulse")
