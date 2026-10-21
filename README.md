@@ -6,12 +6,18 @@ The app is a **simulated replay**, not a live event-monitoring system. All data 
 
 ## Try the app
 
-Run it locally with [uv](https://docs.astral.sh/uv/) and Python 3.11 or newer:
+With Git, [uv](https://docs.astral.sh/uv/), and Python 3.11 or newer installed, clone the repository and start the app:
 
 ```bash
+git clone https://github.com/dsilvadeepal/signal-room-conference-ops.git
+cd signal-room-conference-ops
 uv sync
 uv run streamlit run app.py
 ```
+
+Open the local URL printed by Streamlit (normally `http://localhost:8501`). Keep the terminal running while using the app; press `Ctrl+C` in that terminal to stop it.
+
+If you already have a checkout, start from its repository root and skip the clone step. The app reads `data/conference_signals.csv` relative to that directory.
 
 The committed CSV is ready to use; no credentials or data download are needed. To regenerate the same seeded dataset and run the tests:
 
@@ -19,8 +25,6 @@ The committed CSV is ready to use; no credentials or data download are needed. T
 uv run python scripts/generate_data.py
 uv run pytest -q
 ```
-
-Open the local URL printed by Streamlit (normally `http://localhost:8501`). Run these commands from the repository root because the app reads `data/conference_signals.csv` relative to it.
 
 ## What to explore
 
